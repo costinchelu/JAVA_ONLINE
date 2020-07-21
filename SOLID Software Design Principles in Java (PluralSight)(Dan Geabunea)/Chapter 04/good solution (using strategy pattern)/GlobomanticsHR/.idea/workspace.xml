@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="988a7437-71a8-46cf-95d8-b7092b7bf72f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hr/main/CalculateTaxesMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hr/main/CalculateTaxesMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hr/taxes/TaxCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hr/taxes/FullTimeTaxCalculator.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZR8wWzgNJPmlHX8KyEwB6R30bn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558539627926" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hr.main" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\pluralsight-solid-principles-java\ocp\before\GlobomanticsHR\src\main\resources" />
+      <recent name="C:\Projects\pluralsight-solid-principles-java\ocp\before\GlobomanticsHR\src\main\java\hr\taxes" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CalculateTaxesMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hr.main.CalculateTaxesMain" />
+      <module name="hr" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hr.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CalculateTaxesMain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="988a7437-71a8-46cf-95d8-b7092b7bf72f" name="Default Changelist" comment="" />
+      <created>1558537433424</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558537433424</updated>
+      <workItem from="1558537440170" duration="2243000" />
+      <workItem from="1558540698919" duration="627000" />
+      <workItem from="1584790792566" duration="2497000" />
+      <workItem from="1584880454408" duration="601000" />
+      <workItem from="1584956883420" duration="1552000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../../.." />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2372" y="437" key="#com.intellij.ide.util.MemberChooser" timestamp="1584957565184">
+      <screen x="62" y="0" width="3378" height="1440" />
+    </state>
+    <state x="2372" y="437" key="#com.intellij.ide.util.MemberChooser/62.0.3378.1440@62.0.3378.1440" timestamp="1584957565184" />
+    <state width="1344" height="403" key="GridCell.Tab.0.bottom" timestamp="1584958437460">
+      <screen x="62" y="0" width="3378" height="1440" />
+    </state>
+    <state width="1344" height="403" key="GridCell.Tab.0.bottom/62.0.3378.1440@62.0.3378.1440" timestamp="1584958437460" />
+    <state width="1344" height="403" key="GridCell.Tab.0.center" timestamp="1584958437460">
+      <screen x="62" y="0" width="3378" height="1440" />
+    </state>
+    <state width="1344" height="403" key="GridCell.Tab.0.center/62.0.3378.1440@62.0.3378.1440" timestamp="1584958437460" />
+    <state width="1344" height="403" key="GridCell.Tab.0.left" timestamp="1584958437460">
+      <screen x="62" y="0" width="3378" height="1440" />
+    </state>
+    <state width="1344" height="403" key="GridCell.Tab.0.left/62.0.3378.1440@62.0.3378.1440" timestamp="1584958437460" />
+    <state width="1344" height="403" key="GridCell.Tab.0.right" timestamp="1584958437460">
+      <screen x="62" y="0" width="3378" height="1440" />
+    </state>
+    <state width="1344" height="403" key="GridCell.Tab.0.right/62.0.3378.1440@62.0.3378.1440" timestamp="1584958437460" />
+    <state x="1990" y="370" key="SettingsEditor" timestamp="1584791160333">
+      <screen x="62" y="0" width="3378" height="1440" />
+    </state>
+    <state x="1990" y="370" key="SettingsEditor/62.0.3378.1440@62.0.3378.1440" timestamp="1584791160333" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

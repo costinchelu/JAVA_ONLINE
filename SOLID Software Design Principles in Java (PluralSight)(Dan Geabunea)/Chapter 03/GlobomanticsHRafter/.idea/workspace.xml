@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="988a7437-71a8-46cf-95d8-b7092b7bf72f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/hr/persistence/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hr/persistence/EmployeeRepository.java" afterDir="false" />
+      <change beforePath="D:/refactored/GlobomanticsHR/.idea/workspace.xml" beforeDir="false" afterPath="D:/refactored/GlobomanticsHR/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="D:/refactored/GlobomanticsHR/src/main/java/hr/main/CalculateTaxesMain.java" beforeDir="false" afterPath="D:/refactored/GlobomanticsHR/src/main/java/hr/main/CalculateTaxesMain.java" afterDir="false" />
+      <change beforePath="D:/refactored/GlobomanticsHR/src/main/java/hr/persistence/EmployeeRepository.java" beforeDir="false" afterPath="D:/refactored/GlobomanticsHR/src/main/java/hr/persistence/EmployeeRepository.java" afterDir="false" />
+      <change beforePath="D:/refactored/GlobomanticsHR/src/main/java/hr/taxes/TaxCalculator.java" beforeDir="false" afterPath="D:/refactored/GlobomanticsHR/src/main/java/hr/taxes/TaxCalculator.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="D:/.." />
+  </component>
+  <component name="ProjectId" id="1YXjLZ0RpZFpV3ZpT0nnfd7yFBu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558539627926" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hr.main" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\pluralsight-solid-principles-java\ocp\before\GlobomanticsHR\src\main\resources" />
+      <recent name="C:\Projects\pluralsight-solid-principles-java\ocp\before\GlobomanticsHR\src\main\java\hr\taxes" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SaveEmployeesMain">
+    <configuration name="CalculateTaxesMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hr.main.CalculateTaxesMain" />
+      <module name="hr" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hr.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SaveEmployeesMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hr.main.SaveEmployeesMain" />
+      <module name="hr" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hr.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SaveEmployeesMain" />
+        <item itemvalue="Application.CalculateTaxesMain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="988a7437-71a8-46cf-95d8-b7092b7bf72f" name="Default Changelist" comment="" />
+      <created>1558537433424</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558537433424</updated>
+      <workItem from="1558537440170" duration="2243000" />
+      <workItem from="1558540698919" duration="627000" />
+      <workItem from="1583095779645" duration="1893000" />
+      <workItem from="1583099678530" duration="1469000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2540" y="437" key="#com.intellij.ide.util.MemberChooser" timestamp="1583100638545">
+      <screen x="64" y="0" width="3376" height="1440" />
+    </state>
+    <state x="2540" y="437" key="#com.intellij.ide.util.MemberChooser/64.0.3376.1440@64.0.3376.1440" timestamp="1583100638545" />
+    <state x="2465" y="468" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583099304740">
+      <screen x="64" y="0" width="3376" height="1440" />
+    </state>
+    <state x="2465" y="468" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/64.0.3376.1440@64.0.3376.1440" timestamp="1583099304740" />
+    <state width="1364" height="403" key="GridCell.Tab.0.bottom" timestamp="1583101148358">
+      <screen x="64" y="0" width="3376" height="1440" />
+    </state>
+    <state width="1364" height="403" key="GridCell.Tab.0.bottom/64.0.3376.1440@64.0.3376.1440" timestamp="1583101148358" />
+    <state width="1364" height="403" key="GridCell.Tab.0.center" timestamp="1583101148358">
+      <screen x="64" y="0" width="3376" height="1440" />
+    </state>
+    <state width="1364" height="403" key="GridCell.Tab.0.center/64.0.3376.1440@64.0.3376.1440" timestamp="1583101148358" />
+    <state width="1364" height="403" key="GridCell.Tab.0.left" timestamp="1583101148358">
+      <screen x="64" y="0" width="3376" height="1440" />
+    </state>
+    <state width="1364" height="403" key="GridCell.Tab.0.left/64.0.3376.1440@64.0.3376.1440" timestamp="1583101148358" />
+    <state width="1364" height="403" key="GridCell.Tab.0.right" timestamp="1583101148358">
+      <screen x="64" y="0" width="3376" height="1440" />
+    </state>
+    <state width="1364" height="403" key="GridCell.Tab.0.right/64.0.3376.1440@64.0.3376.1440" timestamp="1583101148358" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

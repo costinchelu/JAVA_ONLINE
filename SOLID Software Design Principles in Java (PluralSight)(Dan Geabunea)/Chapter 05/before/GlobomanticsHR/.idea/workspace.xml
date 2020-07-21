@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d81dde81-5cc6-4d65-b446-4193cf03fb49" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/documents/ExportableDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/logging/ConsoleLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/main/ApproveSLAMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/main/CalculateEmployeeTaxesMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/main/NatHolidayEmployeeTimeOffMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/main/SaveEmployeesMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/persistence/EmployeeFileSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/persistence/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/personnel/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/personnel/FullTimeEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/personnel/Intern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/personnel/PartTimeEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/personnel/ServiceLicenseAgreement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/personnel/Subcontractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/taxes/FullTimeTaxCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/taxes/InternTaxCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/taxes/PartTimeTaxCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/taxes/TaxCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/taxes/TaxCalculatorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/subcontractor_business_requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/taxes_business_requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/taxes_business_requirements_v2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Chapter 03/demos/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Chapter 04/good solution (using strategy pattern)/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Chapter 04/good solution (using strategy pattern)/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Chapter 04/good solution (using strategy pattern)/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="905" />
+    <option name="y" value="145" />
+    <option name="width" value="1294" />
+    <option name="height" value="727" />
+  </component>
+  <component name="ProjectId" id="1ZWkzaKEE7DnO6Frji0dXnlknnl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559477621128" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GITHUB\JAVA_UDEMY\SOLID Software Design Principles in Java (PluralSight)(Dan Geabunea)\Chapter 05\demos\before\GlobomanticsHR" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ApproveSLAMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hr.main.ApproveSLAMain" />
+      <module name="hr" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hr.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ApproveSLAMain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d81dde81-5cc6-4d65-b446-4193cf03fb49" name="Default Changelist" comment="" />
+      <created>1559477406199</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559477406199</updated>
+      <workItem from="1559477410343" duration="240000" />
+      <workItem from="1584962501805" duration="2575000" />
+      <workItem from="1584970588477" duration="7000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../../.." />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2347" y="483" key="FileChooserDialogImpl" timestamp="1584962872453">
+      <screen x="62" y="0" width="3378" height="1440" />
+    </state>
+    <state x="2347" y="483" key="FileChooserDialogImpl/62.0.3378.1440@62.0.3378.1440" timestamp="1584962872453" />
+    <state width="1345" height="403" key="GridCell.Tab.0.bottom" timestamp="1584970572776">
+      <screen x="62" y="0" width="3378" height="1440" />
+    </state>
+    <state width="1345" height="403" key="GridCell.Tab.0.bottom/62.0.3378.1440@62.0.3378.1440" timestamp="1584970572776" />
+    <state width="1345" height="403" key="GridCell.Tab.0.center" timestamp="1584970572776">
+      <screen x="62" y="0" width="3378" height="1440" />
+    </state>
+    <state width="1345" height="403" key="GridCell.Tab.0.center/62.0.3378.1440@62.0.3378.1440" timestamp="1584970572776" />
+    <state width="1345" height="403" key="GridCell.Tab.0.left" timestamp="1584970572775">
+      <screen x="62" y="0" width="3378" height="1440" />
+    </state>
+    <state width="1345" height="403" key="GridCell.Tab.0.left/62.0.3378.1440@62.0.3378.1440" timestamp="1584970572775" />
+    <state width="1345" height="403" key="GridCell.Tab.0.right" timestamp="1584970572776">
+      <screen x="62" y="0" width="3378" height="1440" />
+    </state>
+    <state width="1345" height="403" key="GridCell.Tab.0.right/62.0.3378.1440@62.0.3378.1440" timestamp="1584970572776" />
+    <state x="2068" y="370" key="SettingsEditor" timestamp="1584962709181">
+      <screen x="62" y="0" width="3378" height="1440" />
+    </state>
+    <state x="2068" y="370" key="SettingsEditor/62.0.3378.1440@62.0.3378.1440" timestamp="1584962709181" />
+    <state x="2376" y="645" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584962899135">
+      <screen x="62" y="0" width="3378" height="1440" />
+    </state>
+    <state x="2376" y="645" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/62.0.3378.1440@62.0.3378.1440" timestamp="1584962899135" />
+    <state x="2223" y="346" width="672" height="677" key="run.anything.popup" timestamp="1584962878162">
+      <screen x="62" y="0" width="3378" height="1440" />
+    </state>
+    <state x="2223" y="346" width="672" height="677" key="run.anything.popup/62.0.3378.1440@62.0.3378.1440" timestamp="1584962878162" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

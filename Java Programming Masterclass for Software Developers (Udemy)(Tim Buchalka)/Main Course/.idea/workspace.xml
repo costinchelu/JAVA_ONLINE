@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cde31155-a56e-4be1-8c87-3bac907b1c65" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="module-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1XkhtIuaKrf9S5naPTkzFnJwCCp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="true" />
+    <property name="Repository.Attach.Sources" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last.edited.regexp" value="abcDee" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../LICENTA/FARMA10" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="udemy_sec18e_Challenge" />
+      <recent name="udemy_sec_18b_UnitTesting" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="udemy_sec13d_JavaFX" />
+      <recent name="HelloWorldFX" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GITHUB\JAVA\Udemy (Tim Buchalka)\src\udemy_sec19f_MusicUI" />
+      <recent name="E:\GITHUB\JAVA\Udemy (Tim Buchalka)\src" />
+      <recent name="E:\GITHUB\JAVA\Udemy (Tim Buchalka)\src\udemy_sec19e_Transactions" />
+      <recent name="E:\GITHUB\JAVA\Udemy (Tim Buchalka)" />
+      <recent name="E:\GITHUB\JAVA\Udemy (Tim Buchalka)\src\udemy_sec19a" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="udemy_sec20b_NetServerMultipleClients" />
+      <recent name="udemy_sec20aa_Net_Client" />
+      <recent name="udemy_sec19c_ExecuteQuery" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MainPaths">
+    <configuration name="HTTPconn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="udemy_sec20d_HighLevelAPI.HTTPconn" />
+      <module name="Tim" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="udemy_sec20d_HighLevelAPI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="udemy_sec20c_DatagramsServer.Main" />
+      <module name="Tim" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="udemy_sec20c_DatagramsServer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="udemy_sec13c_JavaFX.Controls.Main" />
+      <module name="Udemy (Tim Buchalka)" />
+      <option name="VM_PARAMETERS" value="--module-path C:\JARs\OpenJavaFX13\lib --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="udemy_sec13c_JavaFX.Controls.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainPaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="udemy_sec14m_Paths.MainPaths" />
+      <module name="Tim" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="udemy_sec14m_Paths.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="udemy_sec19d_musicDB.Main" />
+      <module name="Udemy (Tim Buchalka)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="udemy_sec19d_musicDB.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="URLConn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="udemy_sec20d_HighLevelAPI.URLConn" />
+      <module name="Tim" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="udemy_sec20d_HighLevelAPI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="URLandURI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="udemy_sec20d_HighLevelAPI.URLandURI" />
+      <module name="Tim" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="udemy_sec20d_HighLevelAPI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankAccountTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="Tim" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="udemy_sec18b_UnitTesting1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="udemy_sec18b_UnitTesting1" />
+      <option name="MAIN_CLASS_NAME" value="udemy_sec18b_UnitTesting1.BankAccountTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (4)" />
+      <item itemvalue="Application.URLandURI" />
+      <item itemvalue="Application.URLConn" />
+      <item itemvalue="Application.HTTPconn" />
+      <item itemvalue="Application.MainPaths" />
+      <item itemvalue="JUnit.BankAccountTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainPaths" />
+        <item itemvalue="Application.HTTPconn" />
+        <item itemvalue="Application.URLConn" />
+        <item itemvalue="Application.URLandURI" />
+        <item itemvalue="Application.Main (4)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cde31155-a56e-4be1-8c87-3bac907b1c65" name="Default Changelist" comment="" />
+      <created>1581596212361</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581596212361</updated>
+      <workItem from="1581596214559" duration="197000" />
+      <workItem from="1581596845375" duration="95000" />
+      <workItem from="1581599105473" duration="666000" />
+      <workItem from="1581599798810" duration="3044000" />
+      <workItem from="1581602945946" duration="1496000" />
+      <workItem from="1581613581258" duration="3415000" />
+      <workItem from="1581627618617" duration="3051000" />
+      <workItem from="1581661333752" duration="1229000" />
+      <workItem from="1581752502611" duration="12766000" />
+      <workItem from="1581857785730" duration="2443000" />
+      <workItem from="1581923592092" duration="11345000" />
+      <workItem from="1582009562069" duration="15513000" />
+      <workItem from="1582103701450" duration="11994000" />
+      <workItem from="1582185056249" duration="15658000" />
+      <workItem from="1582324261735" duration="163000" />
+      <workItem from="1582324438044" duration="63000" />
+      <workItem from="1582400894916" duration="4176000" />
+      <workItem from="1582441505531" duration="1446000" />
+      <workItem from="1582554204010" duration="7593000" />
+      <workItem from="1582576041614" duration="1504000" />
+      <workItem from="1582616875345" duration="2001000" />
+      <workItem from="1582734767865" duration="1546000" />
+      <workItem from="1582812287798" duration="17237000" />
+      <workItem from="1582925096070" duration="2943000" />
+      <workItem from="1583137036560" duration="7961000" />
+      <workItem from="1583227187063" duration="3477000" />
+      <workItem from="1583268548778" duration="7160000" />
+      <workItem from="1583309408767" duration="948000" />
+      <workItem from="1583317547260" duration="2496000" />
+      <workItem from="1583320587528" duration="10000" />
+      <workItem from="1583359787945" duration="524000" />
+      <workItem from="1583360822643" duration="2978000" />
+      <workItem from="1583392814057" duration="6304000" />
+      <workItem from="1583441843618" duration="5137000" />
+      <workItem from="1583481584953" duration="2517000" />
+      <workItem from="1583591494429" duration="17330000" />
+      <workItem from="1583874351638" duration="4377000" />
+      <workItem from="1583942397253" duration="1459000" />
+      <workItem from="1585939856911" duration="166000" />
+      <workItem from="1585940687482" duration="1132000" />
+      <workItem from="1592890287432" duration="1792000" />
+    </task>
+    <task id="LOCAL-00001" summary="New Tim's courses">
+      <created>1582837668023</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582837668023</updated>
+    </task>
+    <task id="LOCAL-00002" summary="New Tim's courses">
+      <created>1583146394092</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583146394092</updated>
+    </task>
+    <task id="LOCAL-00003" summary="New Tim's courses">
+      <created>1583277704791</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583277704791</updated>
+    </task>
+    <task id="LOCAL-00004" summary="New Tim's courses">
+      <created>1583363188124</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583363188124</updated>
+    </task>
+    <task id="LOCAL-00005" summary="work on sec19f - Tim's Java course.">
+      <created>1583406797152</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583406797152</updated>
+    </task>
+    <task id="LOCAL-00006" summary="work on sec19f - Tim's Java course.">
+      <created>1583451229297</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1583451229297</updated>
+    </task>
+    <task id="LOCAL-00007" summary="work on sec19f - Tim's Java course. Video 358 (05:30)">
+      <created>1583486256104</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1583486256104</updated>
+    </task>
+    <task id="LOCAL-00008" summary="work on sec19 finished">
+      <created>1583594867064</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1583594867064</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Tim's Java Masterclass - sec20 - courses 359-360 added.">
+      <created>1583599144862</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1583599144862</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Tim's Java Masterclass - sec20 - courses 361-363 added.">
+      <created>1583611291528</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1583611291528</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Tim's Java Masterclass - sec20 - courses 364-365 added.">
+      <created>1583620180512</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1583620180512</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Tim's Java Masterclass - sec20 - finished">
+      <created>1583880292012</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1583880292012</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+    <MESSAGE value="New Tim's courses" />
+    <MESSAGE value="work on sec19f - Tim's Java course." />
+    <MESSAGE value="work on sec19f - Tim's Java course. Video 358 (05:30)" />
+    <MESSAGE value="work on sec19 finished" />
+    <MESSAGE value="Tim's Java Masterclass - sec20 - courses 359-360 added." />
+    <MESSAGE value="Tim's Java Masterclass - sec20 - courses 361-363 added." />
+    <MESSAGE value="Tim's Java Masterclass - sec20 - courses 364-365 added." />
+    <MESSAGE value="Tim's Java Masterclass - sec20 - finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tim's Java Masterclass - sec20 - finished" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2392" y="446" key="FileChooserDialogImpl" timestamp="1592891416799">
+      <screen x="64" y="0" width="3376" height="1440" />
+    </state>
+    <state x="2392" y="446" key="FileChooserDialogImpl/64.0.3376.1440@64.0.3376.1440" timestamp="1592891416799" />
+    <state width="1302" height="254" key="GridCell.Tab.0.bottom" timestamp="1585941819540">
+      <screen x="62" y="0" width="3378" height="1440" />
+    </state>
+    <state width="1302" height="254" key="GridCell.Tab.0.bottom/62.0.3378.1440@62.0.3378.1440" timestamp="1585941819540" />
+    <state width="1302" height="254" key="GridCell.Tab.0.center" timestamp="1585941819540">
+      <screen x="62" y="0" width="3378" height="1440" />
+    </state>
+    <state width="1302" height="254" key="GridCell.Tab.0.center/62.0.3378.1440@62.0.3378.1440" timestamp="1585941819540" />
+    <state width="1302" height="254" key="GridCell.Tab.0.left" timestamp="1585941819540">
+      <screen x="62" y="0" width="3378" height="1440" />
+    </state>
+    <state width="1302" height="254" key="GridCell.Tab.0.left/62.0.3378.1440@62.0.3378.1440" timestamp="1585941819540" />
+    <state width="1302" height="254" key="GridCell.Tab.0.right" timestamp="1585941819540">
+      <screen x="62" y="0" width="3378" height="1440" />
+    </state>
+    <state width="1302" height="254" key="GridCell.Tab.0.right/62.0.3378.1440@62.0.3378.1440" timestamp="1585941819540" />
+    <state x="2166" y="279" key="SettingsEditor" timestamp="1592891034664">
+      <screen x="64" y="0" width="3376" height="1440" />
+    </state>
+    <state x="2165" y="279" key="SettingsEditor/62.0.3378.1440@62.0.3378.1440" timestamp="1585940015776" />
+    <state x="2166" y="279" key="SettingsEditor/64.0.3376.1440@64.0.3376.1440" timestamp="1592891034664" />
+  </component>
+</project>

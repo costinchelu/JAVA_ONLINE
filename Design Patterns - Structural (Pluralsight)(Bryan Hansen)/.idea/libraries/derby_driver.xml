@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="derby-driver">
+    <CLASSES>
+      <root url="jar://C:/JARs/ApacheDerbyDb/derby-driver.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
