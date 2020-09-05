@@ -1,8 +1,6 @@
-package ro.ccar.demo;
+package section7;
 
 public interface Coach {
 
     String getDailyWorkout();
-
-    String getDailyFortune();
 }

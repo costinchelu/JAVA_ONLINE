@@ -1,8 +1,8 @@
-package ro.ccar.demo;
+package coachDemo.singletonScope;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class SetterDemoApp {
+public class DemoSetterInjection {
 
     public static void main(String[] args) {
 

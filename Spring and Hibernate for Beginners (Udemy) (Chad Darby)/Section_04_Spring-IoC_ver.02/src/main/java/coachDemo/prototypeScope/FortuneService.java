@@ -1,4 +1,4 @@
-package ro.ccar.demo;
+package coachDemo.prototypeScope;
 
 public interface FortuneService {
 

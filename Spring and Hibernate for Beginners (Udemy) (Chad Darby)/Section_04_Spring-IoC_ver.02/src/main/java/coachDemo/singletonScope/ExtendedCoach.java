@@ -1,4 +1,4 @@
-package ro.ccar.demo;
+package coachDemo.singletonScope;
 
 public interface ExtendedCoach extends Coach {
 
