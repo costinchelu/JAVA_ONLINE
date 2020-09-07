@@ -1,4 +1,4 @@
-package section8;
+package section8_9.coach;
 
 public interface Coach {
 

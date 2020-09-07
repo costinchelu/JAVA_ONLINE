@@ -1,13 +1,15 @@
-package section8;
+package section8_9;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import section8_9.coach.Coach;
 
 
 @SpringBootApplication
 public class DemoAnnotations2 {
 
     public static void main(String[] args) {
+        //System.out.println(System.getProperty("user.dir"));
 
         // read Sring config file
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("appContext.xml");

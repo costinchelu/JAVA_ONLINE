@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>ro.ccar</groupId>
-    <artifactId>section7</artifactId>
+    <artifactId>section10</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>section7</name>
-    <description>Spring Udemy by Chad Darby</description>
+    <name>section10</name>
+    <description>Demo project for Spring Boot</description>
 
     <properties>
         <java.version>11</java.version>
@@ -22,6 +22,12 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-logging</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <dependency>
