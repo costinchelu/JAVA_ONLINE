@@ -5,11 +5,18 @@
 </head>
 <body>
 
+<br><br>
 <b>The customer is confirmed:</b> ${customer.toString()}
+
 <br><br>
 <b>Free passes:</b> ${customer.freePasses}
+
 <br><br>
 <b>Postal code:</b> ${customer.postalCode}
+
+<br><br>
+<b>Course code:</b> ${customer.courseCode}
+
 </body>
 <footer>
     <br><br>
