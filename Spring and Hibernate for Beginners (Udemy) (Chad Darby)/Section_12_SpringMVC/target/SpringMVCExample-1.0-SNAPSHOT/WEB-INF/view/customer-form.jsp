@@ -10,7 +10,7 @@
 </head>
 <body>
 
-<i>Customer Registration Form (last name field is mandatory)</i>
+<i>Customer Registration Form (Mandatory fields)</i>
 <br><br>
 
 <%--@elvariable id="customer" type="ro"--%>
@@ -24,6 +24,13 @@
     <form:errors path="lastName" cssClass="error"/>
     <br><br>
 
+    Free passes: <form:input path="freePasses"/>
+    <form:errors path="freePasses" cssClass="error"/>
+    <br><br>
+
+    Postal code: <form:input path="postalCode"/>
+    <form:errors path="postalCode" cssClass="error"/>
+    <br><br>
     <input type="submit" value="Submit"/>
 
 </form:form>

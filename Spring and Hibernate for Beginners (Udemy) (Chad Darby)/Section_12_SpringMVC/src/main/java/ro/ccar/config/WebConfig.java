@@ -12,7 +12,8 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 @Configuration
 @EnableWebMvc
 @ComponentScan("ro.ccar")
-public class WebConfig implements WebMvcConfigurer {
+public class WebConfig implements WebMvcConfigurer  {
+
 
     @Bean
     public InternalResourceViewResolver resolver() {
@@ -30,6 +31,5 @@ public class WebConfig implements WebMvcConfigurer {
                 .addResourceLocations("/resources/")
                 .setCachePeriod(31556926);
     }
-
 
 }

@@ -25,11 +25,11 @@
 </h2>
 <br><br>
 <body>
-    Section 12
     <br><br>
 
     <button type="button" onclick="doSomeWork()">Do some JS</button>
-
+    <br>
+    ----------------------------------------
     <br><br>
 
     <form action="${pageContext.request.contextPath}/hello/showForm">

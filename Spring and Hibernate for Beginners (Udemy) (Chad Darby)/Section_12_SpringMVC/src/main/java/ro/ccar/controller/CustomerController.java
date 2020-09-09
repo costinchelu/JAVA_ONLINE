@@ -18,7 +18,7 @@ import javax.validation.Valid;
 public class CustomerController {
 
 
-    // add an initBinder - to convert trim input strings (remove leading and trailing whitespace)
+    // add an initBinder - to convert trim input strings (or wrapper classes) (remove leading and trailing whitespace)
     @InitBinder
     public void initBinder(WebDataBinder dataBinder) {
         StringTrimmerEditor stringTrimmerEditor = new StringTrimmerEditor(true);
