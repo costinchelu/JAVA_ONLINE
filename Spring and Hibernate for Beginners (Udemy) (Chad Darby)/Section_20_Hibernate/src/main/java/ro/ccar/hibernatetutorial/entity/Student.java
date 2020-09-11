@@ -1,6 +1,9 @@
 package ro.ccar.hibernatetutorial.entity;
 
 import javax.persistence.*;
+import java.util.Date;
+
+import static ro.ccar.hibernatetutorial.utils.DateUtils.formatDate;
 
 
 @Entity
@@ -19,17 +22,26 @@ public class Student {
     @Column(name = "last_name")
     private String lastName;
 
+    @Column(name = "date_of_birth")
+    @Temporal(TemporalType.DATE)
+    private Date dateOfBirth;
+
     @Column(name = "email")
     private String email;
+
+    @Column(name = "grade")
+    private float grade;
 
 
     public Student() {
     }
 
-    public Student(String firstName, String lastName, String email) {
+    public Student(String firstName, String lastName, Date dateOfBirth, String email, float grade) {
         this.firstName = firstName;
         this.lastName = lastName;
+        this.dateOfBirth = dateOfBirth;
         this.email = email;
+        this.grade = grade;
     }
 
     public int getId() {
@@ -56,6 +68,14 @@ public class Student {
         this.lastName = lastName;
     }
 
+    public Date getDateOfBirth() {
+        return dateOfBirth;
+    }
+
+    public void setDateOfBirth(Date dateOfBirth) {
+        this.dateOfBirth = dateOfBirth;
+    }
+
     public String getEmail() {
         return email;
     }
@@ -64,8 +84,17 @@ public class Student {
         this.email = email;
     }
 
+    public float getGrade() {
+        return grade;
+    }
+
+    public void setGrade(float grade) {
+        this.grade = grade;
+    }
+
     @Override
     public String toString() {
-        return "(" + id + ")" + " Student: " + firstName + " " + lastName + ", email: " + email;
+        return "(" + id + ")" + " Student: " + firstName + " " + lastName + ", birth date: " + formatDate(dateOfBirth)
+                 + ", email: " + email + ", GPA: " + grade;
     }
 }

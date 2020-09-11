@@ -10,7 +10,7 @@ public class DeleteStudentDemo {
 
     public static void main(String[] args) {
 
-        int studentId = 2;
+        int studentId = 12;
         Student aStudent;
 
         try (SessionFactory sessionFactory = new Configuration()
@@ -28,7 +28,7 @@ public class DeleteStudentDemo {
             session.delete(aStudent);
 
             // we can also delete rows with a createQuery
-            session.createQuery("delete from Student s where s.id = 2").executeUpdate();
+            session.createQuery("delete from Student s where s.id = 12").executeUpdate();
 
             session.getTransaction().commit();
         }

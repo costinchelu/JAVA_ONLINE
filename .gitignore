@@ -1,8 +1,39 @@
-# Add any directories, files, or patterns you don't want to be tracked by version control
+# Java Maven project's target folder
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-#__________________________Personal config files from IntelliJ
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# __________________________IntelliJ IDEA ###
 .idea/misc.xml
 .idea/worspace.xml
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# __________________________VS Code
+.vscode/
+
 
 # __________________________node_modules
 node_modules
@@ -18,6 +49,7 @@ node modules
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
 
 # __________________________Files related to API keys
 *.env

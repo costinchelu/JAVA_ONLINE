@@ -5,12 +5,23 @@ import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 import ro.ccar.hibernatetutorial.entity.Student;
 
+import java.text.ParseException;
+
+import static ro.ccar.hibernatetutorial.utils.DateUtils.parseDate;
+
 
 public class CreateStudentDemo {
 
     public static void main(String[] args) {
 
-        Student aStudent = new Student("Sid", "Amber", "sid.a@luv2code.com");
+        Student aStudent = null;
+        try {
+            aStudent = new Student("Rod", "Sanders",
+                    parseDate("31/07/2000"), "rod.s@luv2code.com", 8.5f);
+
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
 
         // create session factory
         SessionFactory sessionFactory = new Configuration()
