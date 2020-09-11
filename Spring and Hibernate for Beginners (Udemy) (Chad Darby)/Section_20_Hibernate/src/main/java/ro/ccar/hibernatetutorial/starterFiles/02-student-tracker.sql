@@ -15,3 +15,8 @@ CREATE TABLE `student` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
+
+ALTER TABLE student
+    ADD COLUMN date_of_birth DATETIME DEFAULT NULL AFTER last_name,
+    ADD COLUMN grade FLOAT(4,2) AFTER email;
+

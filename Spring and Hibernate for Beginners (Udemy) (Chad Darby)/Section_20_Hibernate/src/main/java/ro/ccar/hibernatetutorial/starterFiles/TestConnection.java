@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 
 public class TestConnection {
 
-    private static final String JDBC_URL =  "jdbc:mysql://localhost:3306/hb_student_tracker?useSSL=false";
+    private static final String JDBC_URL =  "jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false";
     private static final String USER_ID = "hbstudent";
     private static final String PASS = "hbstudent";
 

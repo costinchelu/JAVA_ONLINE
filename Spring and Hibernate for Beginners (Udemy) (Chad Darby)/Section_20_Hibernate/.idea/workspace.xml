@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4387c593-c002-40c4-aa55-bc89c9161883" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ccar/hibernatetutorial/instructor/bidirectional/DeleteInstructorDetailDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ccar/hibernatetutorial/instructor/bidirectional/GetInstructorDetailDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ccar/hibernatetutorial/instructor/bidirectional/entity/Instructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ccar/hibernatetutorial/instructor/bidirectional/entity/InstructorDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ccar/hibernatetutorial/instructor/unidirectional/CreateDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ccar/hibernatetutorial/instructor/unidirectional/DeleteDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ccar/hibernatetutorial/instructor/unidirectional/entity/Instructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ccar/hibernatetutorial/instructor/unidirectional/entity/InstructorDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ccar/hibernatetutorial/starterFiles/03-instructor.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.instructor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/25763cbb-7cf3-418c-a205-b25f9302926d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/25763cbb-7cf3-418c-a205-b25f9302926d.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e846d17b-bf4b-4615-9fab-db55cc8f57d3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e846d17b-bf4b-4615-9fab-db55cc8f57d3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ccar/hibernatetutorial/CreateStudentDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/ccar/hibernatetutorial/student/CreateStudentDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ccar/hibernatetutorial/DeleteStudentDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/ccar/hibernatetutorial/student/DeleteStudentDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ccar/hibernatetutorial/QueryStudentDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/ccar/hibernatetutorial/student/QueryStudentDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ccar/hibernatetutorial/ReadStudentDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/ccar/hibernatetutorial/student/ReadStudentDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ccar/hibernatetutorial/UpdateStudentDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/ccar/hibernatetutorial/student/UpdateStudentDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ccar/hibernatetutorial/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/ccar/hibernatetutorial/student/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ccar/hibernatetutorial/starterFiles/TestConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/ccar/hibernatetutorial/starterFiles/TestConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.student.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1hI2A3vgceYXZL7mfMENhFvQe3v" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/ro/ccar/hibernatetutorial/instructor/bidirectional" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ro.ccar.hibernatetutorial.student" />
+      <recent name="ro.ccar.hibernatetutorial" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\GITHUB\JAVA_ONLINE\Spring and Hibernate for Beginners (Udemy) (Chad Darby)\Section_20_Hibernate\src\main\java\ro\ccar\hibernatetutorial\instructor\bidirectional" />
+      <recent name="F:\GITHUB\JAVA_ONLINE\Spring and Hibernate for Beginners (Udemy) (Chad Darby)\Section_20_Hibernate\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ro.ccar.hibernatetutorial.instructor" />
+      <recent name="ro.ccar.hibernatetutorial.instructor.bidirectional" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\GITHUB\JAVA_ONLINE\Spring and Hibernate for Beginners (Udemy) (Chad Darby)\Section_20_Hibernate\src\main\java\ro\ccar\hibernatetutorial\starterFiles" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.CreateDemo">
+    <configuration name="CreateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ro.ccar.hibernatetutorial.instructor.unidirectional.CreateDemo" />
+      <module name="Section_20_Hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ro.ccar.hibernatetutorial.instructor.unidirectional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ro.ccar.hibernatetutorial.instructor.unidirectional.DeleteDemo" />
+      <module name="Section_20_Hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ro.ccar.hibernatetutorial.instructor.unidirectional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteInstructorDetailDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ro.ccar.hibernatetutorial.instructor.bidirectional.DeleteInstructorDetailDemo" />
+      <module name="Section_20_Hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ro.ccar.hibernatetutorial.instructor.bidirectional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetInstructorDetailDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ro.ccar.hibernatetutorial.instructor.bidirectional.GetInstructorDetailDemo" />
+      <module name="Section_20_Hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ro.ccar.hibernatetutorial.instructor.bidirectional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadStudentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ro.ccar.hibernatetutorial.student.ReadStudentDemo" />
+      <module name="Section_20_Hibernate" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HibernateTutorialApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Section_20_Hibernate" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ro.ccar.hibernatetutorial.starterFiles.TestConnection" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CreateDemo" />
+        <item itemvalue="Application.DeleteInstructorDetailDemo" />
+        <item itemvalue="Application.GetInstructorDetailDemo" />
+        <item itemvalue="Application.DeleteDemo" />
+        <item itemvalue="Application.ReadStudentDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4387c593-c002-40c4-aa55-bc89c9161883" name="Default Changelist" comment="" />
+      <created>1599684139168</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599684139168</updated>
+      <workItem from="1599684144957" duration="1498000" />
+      <workItem from="1599750151057" duration="17362000" />
+      <workItem from="1599856111349" duration="4270000" />
+      <workItem from="1599894951468" duration="12645000" />
+    </task>
+    <task id="LOCAL-00001" summary="Started Hibernate chapter from Spring Course">
+      <created>1599685574208</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599685574208</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Started Hibernate chapter from Spring Course">
+      <created>1599773818461</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599773818462</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Started Hibernate chapter from Spring Course" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started Hibernate chapter from Spring Course" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2086" y="611" width="568" height="398" key="#Assign_Data_Sources" timestamp="1599858983798">
+      <screen x="63" y="0" width="3377" height="1440" />
+    </state>
+    <state x="2086" y="611" width="568" height="398" key="#Assign_Data_Sources/63.0.3377.1440@63.0.3377.1440" timestamp="1599858983798" />
+    <state x="2179" y="398" key="#Inspections" timestamp="1599751075127">
+      <screen x="63" y="0" width="3377" height="1440" />
+    </state>
+    <state x="2179" y="398" key="#Inspections/63.0.3377.1440@63.0.3377.1440" timestamp="1599751075127" />
+    <state x="1942" y="558" key="#SQL_Dialects" timestamp="1599899834711">
+      <screen x="63" y="0" width="3377" height="1440" />
+    </state>
+    <state x="1942" y="558" key="#SQL_Dialects/63.0.3377.1440@63.0.3377.1440" timestamp="1599899834711" />
+    <state x="2115" y="374" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599900064148">
+      <screen x="63" y="0" width="3377" height="1440" />
+    </state>
+    <state x="2115" y="374" key="#com.intellij.execution.impl.EditConfigurationsDialog/63.0.3377.1440@63.0.3377.1440" timestamp="1599900064148" />
+    <state x="2358" y="436" key="#com.intellij.ide.util.MemberChooser" timestamp="1599905647047">
+      <screen x="63" y="0" width="3377" height="1440" />
+    </state>
+    <state x="2358" y="436" key="#com.intellij.ide.util.MemberChooser/63.0.3377.1440@63.0.3377.1440" timestamp="1599905647047" />
+    <state x="2000" y="644" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1599896463721">
+      <screen x="63" y="0" width="3377" height="1440" />
+    </state>
+    <state x="2000" y="644" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/63.0.3377.1440@63.0.3377.1440" timestamp="1599896463721" />
+    <state x="2336" y="589" width="644" height="270" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1599896504890">
+      <screen x="63" y="0" width="3377" height="1440" />
+    </state>
+    <state x="2336" y="589" width="644" height="270" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/63.0.3377.1440@63.0.3377.1440" timestamp="1599896504890" />
+    <state x="2274" y="464" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1599685070217">
+      <screen x="63" y="0" width="3377" height="1440" />
+    </state>
+    <state x="2274" y="464" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/63.0.3377.1440@63.0.3377.1440" timestamp="1599685070217" />
+    <state x="1978" y="288" key="CommitChangelistDialog2" timestamp="1599773817846">
+      <screen x="63" y="0" width="3377" height="1440" />
+    </state>
+    <state x="1978" y="288" key="CommitChangelistDialog2/63.0.3377.1440@63.0.3377.1440" timestamp="1599773817846" />
+    <state x="2332" y="475" key="FileChooserDialogImpl" timestamp="1599861823945">
+      <screen x="63" y="0" width="3377" height="1440" />
+    </state>
+    <state x="2332" y="475" key="FileChooserDialogImpl/63.0.3377.1440@63.0.3377.1440" timestamp="1599861823945" />
+    <state width="1307" height="395" key="GridCell.Tab.0.bottom" timestamp="1599908485876">
+      <screen x="63" y="0" width="3377" height="1440" />
+    </state>
+    <state width="1307" height="395" key="GridCell.Tab.0.bottom/63.0.3377.1440@63.0.3377.1440" timestamp="1599908485876" />
+    <state width="1307" height="395" key="GridCell.Tab.0.center" timestamp="1599908485875">
+      <screen x="63" y="0" width="3377" height="1440" />
+    </state>
+    <state width="1307" height="395" key="GridCell.Tab.0.center/63.0.3377.1440@63.0.3377.1440" timestamp="1599908485875" />
+    <state width="1307" height="395" key="GridCell.Tab.0.left" timestamp="1599908485875">
+      <screen x="63" y="0" width="3377" height="1440" />
+    </state>
+    <state width="1307" height="395" key="GridCell.Tab.0.left/63.0.3377.1440@63.0.3377.1440" timestamp="1599908485875" />
+    <state width="1307" height="395" key="GridCell.Tab.0.right" timestamp="1599908485875">
+      <screen x="63" y="0" width="3377" height="1440" />
+    </state>
+    <state width="1307" height="395" key="GridCell.Tab.0.right/63.0.3377.1440@63.0.3377.1440" timestamp="1599908485875" />
+    <state width="240" height="457" key="HiddenNamespacesPopup" timestamp="1599900189051">
+      <screen x="63" y="0" width="3377" height="1440" />
+    </state>
+    <state width="240" height="457" key="HiddenNamespacesPopup/63.0.3377.1440@63.0.3377.1440" timestamp="1599900189051" />
+    <state x="2033" y="294" key="SettingsEditor" timestamp="1599750962358">
+      <screen x="63" y="0" width="3377" height="1440" />
+    </state>
+    <state x="2033" y="294" key="SettingsEditor/63.0.3377.1440@63.0.3377.1440" timestamp="1599750962358" />
+    <state x="1935" y="381" key="new project wizard" timestamp="1599861854490">
+      <screen x="63" y="0" width="3377" height="1440" />
+    </state>
+    <state x="1935" y="381" key="new project wizard/63.0.3377.1440@63.0.3377.1440" timestamp="1599861854490" />
+  </component>
+</project>

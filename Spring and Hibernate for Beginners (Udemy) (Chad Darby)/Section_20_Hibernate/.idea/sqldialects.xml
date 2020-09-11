@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/src/main/java/ro/ccar/hibernatetutorial/starterFiles/01-create-user.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/ro/ccar/hibernatetutorial/starterFiles/02-student-tracker.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/ro/ccar/hibernatetutorial/starterFiles/03-instructor.sql" dialect="GenericSQL" />
+    <file url="PROJECT" dialect="MySQL" />
+  </component>
+</project>
