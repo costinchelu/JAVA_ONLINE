@@ -17,5 +17,35 @@ F:/GITHUB/JAVA_ONLINE/Spring and Hibernate for Beginners (Udemy) (Chad Darby)/Se
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/hb_student_tracker?useSSL=false&amp;serverTimezone=UTC</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="hibernate.cfg.student.xml/Hibernate" uuid="bc85e04e-ac4d-48d0-a280-6f04fdeea219">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+F:/GITHUB/JAVA_ONLINE/Spring and Hibernate for Beginners (Udemy) (Chad Darby)/Section_20_Hibernate/src/main/resources/hibernate.cfg.student.xml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/hb_student_tracker?useSSL=false&amp;serverTimezone=UTC</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="hibernate.cfg.instructor.xml/Hibernate" uuid="3809b7bf-2469-4691-bbd4-c652d4e6546c">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+F:/GITHUB/JAVA_ONLINE/Spring and Hibernate for Beginners (Udemy) (Chad Darby)/Section_20_Hibernate/src/main/resources/hibernate.cfg.instructor.xml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false&amp;serverTimezone=UTC</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="hibernate.cfg.course.xml/Hibernate" uuid="094f7edf-b4ea-4a93-a0aa-7e973f5d92fa">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+F:/GITHUB/JAVA_ONLINE/Spring and Hibernate for Beginners (Udemy) (Chad Darby)/Section_20_Hibernate/src/main/resources/hibernate.cfg.course.xml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/hb-03-one-to-many?useSSL=false&amp;serverTimezone=UTC</jdbc-url>
+    </data-source>
   </component>
 </project>

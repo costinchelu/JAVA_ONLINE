@@ -23,7 +23,7 @@
     <!-- Log all SQL DDL statements as they are executed -->
     <Logger name="org.hibernate.tool.hbm2ddl" level="WARN" />
     <!-- Log all JDBC parameters -->
-    <logger name="org.hibernate.type" level="TRACE" />
+    <logger name="org.hibernate.type" level="WARN" />
     <!-- Log transaction related activity -->
     <Logger name="org.hibernate.transaction" level="ERROR" />
     <!-- Log all second-level cache activity -->

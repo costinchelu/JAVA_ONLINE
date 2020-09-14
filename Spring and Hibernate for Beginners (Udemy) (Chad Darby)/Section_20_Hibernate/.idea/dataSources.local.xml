@@ -14,7 +14,10 @@
           <node kind="schema">
             <name qname="@" />
             <name qname="hb-01-one-to-one-uni" />
+            <name qname="hb-03-one-to-many" />
             <name qname="hb_student_tracker" />
+            <name qname="hb-04-one-to-many-uni" />
+            <name qname="hb-05-many-to-many" />
           </node>
         </introspection-scope>
       </schema-mapping>
@@ -32,6 +35,37 @@
             <name qname="@" />
             <name qname="hb-01-one-to-one-uni" />
           </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="hibernate.cfg.student.xml/Hibernate" uuid="bc85e04e-ac4d-48d0-a280-6f04fdeea219">
+      <database-info product="MySQL" version="8.0.21" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.21 (Revision: 33f65445a1bcc544eb0120491926484da168f199)" dbms="MYSQL" exact-version="8.0.21" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <user-name>hbstudent</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema" qname="@" />
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="hibernate.cfg.instructor.xml/Hibernate" uuid="3809b7bf-2469-4691-bbd4-c652d4e6546c">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
+      <user-name>hbstudent</user-name>
+      <schema-mapping />
+    </data-source>
+    <data-source name="hibernate.cfg.course.xml/Hibernate" uuid="094f7edf-b4ea-4a93-a0aa-7e973f5d92fa">
+      <database-info product="MySQL" version="8.0.21" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.21 (Revision: 33f65445a1bcc544eb0120491926484da168f199)" dbms="MYSQL" exact-version="8.0.21" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <user-name>hbstudent</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema" qname="@" />
         </introspection-scope>
       </schema-mapping>
     </data-source>
