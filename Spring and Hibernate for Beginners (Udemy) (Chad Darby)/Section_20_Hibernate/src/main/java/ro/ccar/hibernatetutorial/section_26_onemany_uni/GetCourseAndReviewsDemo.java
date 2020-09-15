@@ -15,7 +15,7 @@ import java.util.List;
 public class GetCourseAndReviewsDemo {
 
     private static final String CONFIG_FILE = "hibernate.cfg.review.xml";
-    private static final int COURSE_TO_GET_ID = 10;
+    private static final int COURSE_TO_GET_ID = 11;
 
     public static void main(String[] args) {
 

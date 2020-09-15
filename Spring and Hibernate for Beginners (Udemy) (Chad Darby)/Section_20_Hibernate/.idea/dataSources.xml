@@ -47,5 +47,25 @@ F:/GITHUB/JAVA_ONLINE/Spring and Hibernate for Beginners (Udemy) (Chad Darby)/Se
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/hb-03-one-to-many?useSSL=false&amp;serverTimezone=UTC</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="hibernate.cfg.coursestudent.xml/Hibernate" uuid="a42fece6-1dc0-48ee-9595-c4f7985c4d3f">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+F:/GITHUB/JAVA_ONLINE/Spring and Hibernate for Beginners (Udemy) (Chad Darby)/Section_20_Hibernate/src/main/resources/hibernate.cfg.coursestudent.xml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/hb-05-many-to-many?useSSL=false&amp;serverTimezone=UTC</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="hibernate.cfg.review.xml/Hibernate" uuid="c852aaf1-cbec-4c27-b77e-1e2bbf4c970b">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+F:/GITHUB/JAVA_ONLINE/Spring and Hibernate for Beginners (Udemy) (Chad Darby)/Section_20_Hibernate/src/main/resources/hibernate.cfg.review.xml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/hb-04-one-to-many-uni?useSSL=false&amp;serverTimezone=UTC</jdbc-url>
+    </data-source>
   </component>
 </project>

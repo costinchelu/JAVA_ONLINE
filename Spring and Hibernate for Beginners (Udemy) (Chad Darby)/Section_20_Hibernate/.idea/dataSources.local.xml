@@ -15,9 +15,9 @@
             <name qname="@" />
             <name qname="hb-01-one-to-one-uni" />
             <name qname="hb-03-one-to-many" />
-            <name qname="hb_student_tracker" />
             <name qname="hb-04-one-to-many-uni" />
             <name qname="hb-05-many-to-many" />
+            <name qname="hb_student_tracker" />
           </node>
         </introspection-scope>
       </schema-mapping>
@@ -52,9 +52,17 @@
       </schema-mapping>
     </data-source>
     <data-source name="hibernate.cfg.instructor.xml/Hibernate" uuid="3809b7bf-2469-4691-bbd4-c652d4e6546c">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
+      <database-info product="MySQL" version="8.0.21" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.21 (Revision: 33f65445a1bcc544eb0120491926484da168f199)" dbms="MYSQL" exact-version="8.0.21" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
       <user-name>hbstudent</user-name>
-      <schema-mapping />
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema" qname="@" />
+        </introspection-scope>
+      </schema-mapping>
     </data-source>
     <data-source name="hibernate.cfg.course.xml/Hibernate" uuid="094f7edf-b4ea-4a93-a0aa-7e973f5d92fa">
       <database-info product="MySQL" version="8.0.21" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.21 (Revision: 33f65445a1bcc544eb0120491926484da168f199)" dbms="MYSQL" exact-version="8.0.21" exact-driver-version="8.0">
@@ -68,6 +76,24 @@
           <node kind="schema" qname="@" />
         </introspection-scope>
       </schema-mapping>
+    </data-source>
+    <data-source name="hibernate.cfg.coursestudent.xml/Hibernate" uuid="a42fece6-1dc0-48ee-9595-c4f7985c4d3f">
+      <database-info product="MySQL" version="8.0.21" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.21 (Revision: 33f65445a1bcc544eb0120491926484da168f199)" dbms="MYSQL" exact-version="8.0.21" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <user-name>hbstudent</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema" qname="@" />
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="hibernate.cfg.review.xml/Hibernate" uuid="c852aaf1-cbec-4c27-b77e-1e2bbf4c970b">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
+      <user-name>hbstudent</user-name>
+      <schema-mapping />
     </data-source>
   </component>
 </project>
