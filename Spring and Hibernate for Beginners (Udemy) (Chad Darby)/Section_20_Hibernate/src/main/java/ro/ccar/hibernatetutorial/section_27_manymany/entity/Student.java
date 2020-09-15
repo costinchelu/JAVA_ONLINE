@@ -1,4 +1,4 @@
-package ro.ccar.hibernatetutorial.section_26_onemany_uni.entity;
+package ro.ccar.hibernatetutorial.section_27_manymany.entity;
 
 import javax.persistence.*;
 import java.util.ArrayList;
@@ -9,6 +9,7 @@ import java.util.List;
 @Table(name = "student")
 public class Student {
 
+    // identity is the usual strategy to use with auto-increment feature of MySQL
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
@@ -23,11 +24,14 @@ public class Student {
     @Column(name = "email")
     private String email;
 
-    @ManyToMany(cascade = {CascadeType.DETACH, CascadeType.MERGE, CascadeType.PERSIST, CascadeType.REFRESH},
-                fetch = FetchType.LAZY)
-    @JoinTable(name = "course_student",
-                joinColumns = @JoinColumn(name = "student_id"),
-                inverseJoinColumns = @JoinColumn(name = "course_id"))
+    @ManyToMany(fetch=FetchType.LAZY,
+            cascade= {CascadeType.PERSIST, CascadeType.MERGE,
+                    CascadeType.DETACH, CascadeType.REFRESH})
+    @JoinTable(
+            name="course_student",
+            joinColumns=@JoinColumn(name="student_id"),
+            inverseJoinColumns=@JoinColumn(name="course_id")
+    )
     private List<Course> courses;
 
 
@@ -80,8 +84,9 @@ public class Student {
         this.courses = courses;
     }
 
+    // helper method to add course
     public void addCourse(Course course) {
-        if(courses == null) {
+        if (courses == null) {
             courses = new ArrayList<>();
         }
         courses.add(course);
@@ -89,6 +94,7 @@ public class Student {
 
     @Override
     public String toString() {
-        return "(" + id + ")" + " Student: " + firstName + " " + lastName + ", email: " + email;
+        return "(" + id + ")" + " Student: " + firstName + " " + lastName
+                + ", email: " + email;
     }
 }

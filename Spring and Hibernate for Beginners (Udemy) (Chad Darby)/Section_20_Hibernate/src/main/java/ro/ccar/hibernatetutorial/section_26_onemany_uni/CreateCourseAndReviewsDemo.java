@@ -14,7 +14,7 @@ import java.util.List;
 
 public class CreateCourseAndReviewsDemo {
 
-    private static final String CONFIG_FILE = "hibernate.cfg.coursestudent.xml";
+    private static final String CONFIG_FILE = "hibernate.cfg.review.xml";
 
     public static void main(String[] args) {
 

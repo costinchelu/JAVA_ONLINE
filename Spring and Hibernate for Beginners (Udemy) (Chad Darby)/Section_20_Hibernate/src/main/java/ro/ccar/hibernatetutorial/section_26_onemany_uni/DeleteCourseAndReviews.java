@@ -1,18 +1,17 @@
-package ro.ccar.hibernatetutorial.section_27_manymany;
+package ro.ccar.hibernatetutorial.section_26_onemany_uni;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
-import ro.ccar.hibernatetutorial.section_27_manymany.entity.Course;
-import ro.ccar.hibernatetutorial.section_27_manymany.entity.Instructor;
-import ro.ccar.hibernatetutorial.section_27_manymany.entity.InstructorDetail;
-import ro.ccar.hibernatetutorial.section_27_manymany.entity.Review;
+import ro.ccar.hibernatetutorial.section_26_onemany_uni.entity.Course;
+import ro.ccar.hibernatetutorial.section_26_onemany_uni.entity.Instructor;
+import ro.ccar.hibernatetutorial.section_26_onemany_uni.entity.InstructorDetail;
+import ro.ccar.hibernatetutorial.section_26_onemany_uni.entity.Review;
 
-
-public class GetCourseAndReviewsDemo {
+public class DeleteCourseAndReviews {
 
     private static final String CONFIG_FILE = "hibernate.cfg.review.xml";
-    private static final int COURSE_TO_GET_ID = 10;
+    private static final int COURSE_TO_DELETE_ID = 10;
 
     public static void main(String[] args) {
 
@@ -29,12 +28,10 @@ public class GetCourseAndReviewsDemo {
         try {
             session.beginTransaction();
 
-            // we have a LAZY implementation (we need to implicitly get courses)
-            Course course1 = session.get(Course.class, COURSE_TO_GET_ID);
-            System.out.println("Course 1:");
-            System.out.println(course1);
-            System.out.println("Course 1 reviews:");
-            System.out.println(course1.getReviews());
+            Course courseTemp = session.get(Course.class, COURSE_TO_DELETE_ID);
+            session.delete(courseTemp);
+
+            System.out.println("Deleted course with id " + COURSE_TO_DELETE_ID + " and subsequently it's own reviews");
 
             session.getTransaction().commit();
 

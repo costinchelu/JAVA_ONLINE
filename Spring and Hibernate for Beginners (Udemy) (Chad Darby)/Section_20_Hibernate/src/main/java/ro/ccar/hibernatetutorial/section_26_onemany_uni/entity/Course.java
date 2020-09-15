@@ -1,6 +1,5 @@
 package ro.ccar.hibernatetutorial.section_26_onemany_uni.entity;
 
-
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -27,15 +26,6 @@ public class Course {
     @OneToMany(cascade = CascadeType.ALL)
     @JoinColumn(name = "course_id")
     private List<Review> reviews;
-
-    // we have a join table between course and student (because of the many to many relationship)
-    // in this case we need to join that table (course_student) and define columns to relate to
-    @ManyToMany(cascade = {CascadeType.DETACH, CascadeType.MERGE, CascadeType.PERSIST, CascadeType.REFRESH},
-                fetch = FetchType.LAZY)
-    @JoinTable(name = "course_student",
-                joinColumns = @JoinColumn(name = "course_id"),
-                inverseJoinColumns = @JoinColumn(name = "student_id"))
-    private List<Student> students;
 
 
     public Course() {
@@ -78,13 +68,6 @@ public class Course {
         this.reviews = reviews;
     }
 
-    public List<Student> getStudents() {
-        return students;
-    }
-
-    public void setStudents(List<Student> students) {
-        this.students = students;
-    }
 
     // being an unidirectional relation from the course part, hibernate will automatically bind course_id to the course
     // column in the DB, in the moment we will add the review to a certain course
@@ -93,14 +76,6 @@ public class Course {
             reviews = new ArrayList<>();
         }
         reviews.add(review);
-    }
-
-
-    public void addStudent(Student student) {
-        if (students == null) {
-            students = new ArrayList<>();
-        }
-        students.add(student);
     }
 
     @Override

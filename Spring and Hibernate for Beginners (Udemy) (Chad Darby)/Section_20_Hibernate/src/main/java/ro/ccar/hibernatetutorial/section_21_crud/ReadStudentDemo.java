@@ -9,10 +9,6 @@ import java.text.ParseException;
 
 import static ro.ccar.hibernatetutorial.utils.DateUtils.parseDate;
 
-import java.text.ParseException;
-
-import static ro.ccar.hibernatetutorial.utils.DateUtils.parseDate;
-
 
 public class ReadStudentDemo {
 

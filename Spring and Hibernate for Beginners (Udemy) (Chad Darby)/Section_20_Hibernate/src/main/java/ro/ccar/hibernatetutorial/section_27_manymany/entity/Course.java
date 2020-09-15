@@ -27,6 +27,16 @@ public class Course {
     @JoinColumn(name = "course_id")
     private List<Review> reviews;
 
+    @ManyToMany(fetch=FetchType.LAZY,
+            cascade= {CascadeType.PERSIST, CascadeType.MERGE,
+                    CascadeType.DETACH, CascadeType.REFRESH})
+    @JoinTable(
+            name="course_student",
+            joinColumns=@JoinColumn(name="course_id"),
+            inverseJoinColumns=@JoinColumn(name="student_id")
+    )
+    private List<Student> students;
+
 
     public Course() {
     }
@@ -60,7 +70,6 @@ public class Course {
     }
 
     public List<Review> getReviews() {
-
         return reviews;
     }
 
@@ -68,14 +77,36 @@ public class Course {
         this.reviews = reviews;
     }
 
-
     // being an unidirectional relation from the course part, hibernate will automatically bind course_id to the course
     // column in the DB, in the moment we will add the review to a certain course
     public void addReview(Review review) {
-        if(reviews == null) {
+        if (reviews == null) {
             reviews = new ArrayList<>();
         }
         reviews.add(review);
+    }
+
+    public List<Student> getStudents() {
+        return students;
+    }
+
+    public void setStudents(List<Student> students) {
+        this.students = students;
+    }
+
+    // add a convenience method
+    public void addStudent(Student theStudent) {
+        if (students == null) {
+            students = new ArrayList<>();
+        }
+        students.add(theStudent);
+    }
+
+    public void addStudents(List<Student> studentList) {
+        if (students == null) {
+            students = new ArrayList<>();
+        }
+        students.addAll(studentList);
     }
 
     @Override
@@ -83,3 +114,4 @@ public class Course {
         return "[COURSE ID " + id + ": \"" + title + "\"]";
     }
 }
+

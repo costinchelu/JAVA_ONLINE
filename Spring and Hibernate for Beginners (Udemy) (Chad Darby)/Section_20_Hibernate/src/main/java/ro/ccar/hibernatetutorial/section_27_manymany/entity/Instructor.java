@@ -59,7 +59,6 @@ public class Instructor {
         if(courses == null) {
             courses = new ArrayList<>();
         }
-
         courses.add(course);
         course.setInstructor(this);
     }
