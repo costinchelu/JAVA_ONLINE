@@ -11,6 +11,18 @@ public class Power {
         return result;
     }
 
+    // Compute the largest power of 2 less than or equal to n:
+    public static long largestPower(long n) {
+        long power = 1;
+        long result = 1;
+        while(result <= n / 2) {
+            result *= 2;
+            System.out.println("2 ^ " + power + " = " + result);
+            power++;
+        }
+        return power - 1;
+    }
+
     public static void main(String[] args) {
         double nr = 5.5;
         int putere = 6;
