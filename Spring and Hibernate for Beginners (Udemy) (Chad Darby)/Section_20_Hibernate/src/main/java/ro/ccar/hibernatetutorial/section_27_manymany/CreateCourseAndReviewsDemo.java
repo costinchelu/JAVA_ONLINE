@@ -1,12 +1,12 @@
-package ro.ccar.hibernatetutorial.section_26_onemany_uni;
+package ro.ccar.hibernatetutorial.section_27_manymany;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
-import ro.ccar.hibernatetutorial.section_26_onemany_uni.entity.Course;
-import ro.ccar.hibernatetutorial.section_26_onemany_uni.entity.Instructor;
-import ro.ccar.hibernatetutorial.section_26_onemany_uni.entity.InstructorDetail;
-import ro.ccar.hibernatetutorial.section_26_onemany_uni.entity.Review;
+import ro.ccar.hibernatetutorial.section_27_manymany.entity.Course;
+import ro.ccar.hibernatetutorial.section_27_manymany.entity.Instructor;
+import ro.ccar.hibernatetutorial.section_27_manymany.entity.InstructorDetail;
+import ro.ccar.hibernatetutorial.section_27_manymany.entity.Review;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,7 +14,7 @@ import java.util.List;
 
 public class CreateCourseAndReviewsDemo {
 
-    private static final String CONFIG_FILE = "hibernate.cfg.coursestudent.xml";
+    private static final String CONFIG_FILE = "hibernate.cfg.review.xml";
 
     public static void main(String[] args) {
 
