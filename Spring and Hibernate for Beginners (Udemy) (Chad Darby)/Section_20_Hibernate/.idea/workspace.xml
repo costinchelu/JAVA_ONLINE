@@ -20,21 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4387c593-c002-40c4-aa55-bc89c9161883" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ccar/hibernatetutorial/section_27_manymany/CreateCourseAndStudentDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ccar/hibernatetutorial/section_27_manymany/entity/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ccar/hibernatetutorial/section_27_manymany/entity/Instructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ccar/hibernatetutorial/section_27_manymany/entity/InstructorDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ccar/hibernatetutorial/section_27_manymany/entity/Review.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ccar/hibernatetutorial/section_27_manymany/entity/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/094f7edf-b4ea-4a93-a0aa-7e973f5d92fa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/094f7edf-b4ea-4a93-a0aa-7e973f5d92fa.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/25763cbb-7cf3-418c-a205-b25f9302926d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/25763cbb-7cf3-418c-a205-b25f9302926d.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bc85e04e-ac4d-48d0-a280-6f04fdeea219.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/bc85e04e-ac4d-48d0-a280-6f04fdeea219.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e846d17b-bf4b-4615-9fab-db55cc8f57d3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e846d17b-bf4b-4615-9fab-db55cc8f57d3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ccar/hibernatetutorial/section_27_manymany/AddCoursesToAStudentDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ccar/hibernatetutorial/section_27_manymany/DeleteACourseDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ccar/hibernatetutorial/section_27_manymany/DeleteAStudentDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ccar/hibernatetutorial/section_27_manymany/GetCoursesAssociatedWithStudentDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ccar/hibernatetutorial/section_26_onemany_uni/GetCourseAndReviewsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/ccar/hibernatetutorial/section_26_onemany_uni/GetCourseAndReviewsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ccar/hibernatetutorial/section_27_manymany/CreateCourseAndStudentDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/ccar/hibernatetutorial/section_27_manymany/AddCoursesAndStudentsDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,17 +82,9 @@
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\GITHUB\JAVA_ONLINE\Spring and Hibernate for Beginners (Udemy) (Chad Darby)\Section_20_Hibernate\src\main\java\ro\ccar\hibernatetutorial\starterFiles" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ro.ccar.hibernatetutorial" />
       <recent name="ro.ccar.hibernatetutorial.student" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="ro.ccar.hibernatetutorial.section_26_onemany_uni" />
-      <recent name="ro.ccar.hibernatetutorial.instructor" />
-      <recent name="ro.ccar.hibernatetutorial.instructor.bidirectional" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\GITHUB\JAVA_ONLINE\Spring and Hibernate for Beginners (Udemy) (Chad Darby)\Section_20_Hibernate\src\main\java\ro\ccar\hibernatetutorial\section_26_onemany_uni" />
@@ -110,10 +93,19 @@
       <recent name="F:\GITHUB\JAVA_ONLINE\Spring and Hibernate for Beginners (Udemy) (Chad Darby)\Section_20_Hibernate\src\main\java\ro\ccar\hibernatetutorial\instructor\bidirectional" />
       <recent name="F:\GITHUB\JAVA_ONLINE\Spring and Hibernate for Beginners (Udemy) (Chad Darby)\Section_20_Hibernate\src\main\resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ro.ccar.hibernatetutorial.section_27_manymany" />
+      <recent name="ro.ccar.hibernatetutorial.section_26_onemany_uni" />
+      <recent name="ro.ccar.hibernatetutorial.instructor" />
+      <recent name="ro.ccar.hibernatetutorial.instructor.bidirectional" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\GITHUB\JAVA_ONLINE\Spring and Hibernate for Beginners (Udemy) (Chad Darby)\Section_20_Hibernate\src\main\java\ro\ccar\hibernatetutorial\starterFiles" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.CreateCourseAndStudentDemo">
-    <configuration name="CreateCourseAndStudentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ro.ccar.hibernatetutorial.section_27_manymany.CreateCourseAndStudentDemo" />
+  <component name="RunManager" selected="Application.DeleteAStudentDemo">
+    <configuration name="AddCoursesToAStudentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ro.ccar.hibernatetutorial.section_27_manymany.AddCoursesToAStudentDemo" />
       <module name="Section_20_Hibernate" />
       <extension name="coverage">
         <pattern>
@@ -125,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteCourseAndReviews" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ro.ccar.hibernatetutorial.section_26_onemany_uni.DeleteCourseAndReviews" />
+    <configuration name="DeleteACourseDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ro.ccar.hibernatetutorial.section_27_manymany.DeleteACourseDemo" />
       <module name="Section_20_Hibernate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ro.ccar.hibernatetutorial.section_26_onemany_uni.*" />
+          <option name="PATTERN" value="ro.ccar.hibernatetutorial.section_27_manymany.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EagerLazyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ro.ccar.hibernatetutorial.section_25_eagerlazy.EagerLazyDemo" />
+    <configuration name="DeleteAStudentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ro.ccar.hibernatetutorial.section_27_manymany.DeleteAStudentDemo" />
       <module name="Section_20_Hibernate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ro.ccar.hibernatetutorial.section_25_eagerlazy.*" />
+          <option name="PATTERN" value="ro.ccar.hibernatetutorial.section_27_manymany.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetCourseAndReviewsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ro.ccar.hibernatetutorial.section_26_onemany_uni.GetCourseAndReviewsDemo" />
+    <configuration name="GetCoursesAssociatedWithStudentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ro.ccar.hibernatetutorial.section_27_manymany.GetCoursesAssociatedWithStudentDemo" />
       <module name="Section_20_Hibernate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ro.ccar.hibernatetutorial.section_26_onemany_uni.*" />
+          <option name="PATTERN" value="ro.ccar.hibernatetutorial.section_27_manymany.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CreateCourseAndStudentDemo" />
+        <item itemvalue="Application.DeleteAStudentDemo" />
+        <item itemvalue="Application.DeleteACourseDemo" />
+        <item itemvalue="Application.GetCoursesAssociatedWithStudentDemo" />
+        <item itemvalue="Application.AddCoursesToAStudentDemo" />
         <item itemvalue="Application.GetInstructorCoursesDemo" />
-        <item itemvalue="Application.GetCourseAndReviewsDemo" />
-        <item itemvalue="Application.EagerLazyDemo" />
-        <item itemvalue="Application.DeleteCourseAndReviews" />
       </list>
     </recent_temporary>
   </component>
@@ -215,6 +207,7 @@
       <workItem from="1600065428265" duration="7603000" />
       <workItem from="1600115169442" duration="4029000" />
       <workItem from="1600163193625" duration="1599000" />
+      <workItem from="1600237995259" duration="3740000" />
     </task>
     <task id="LOCAL-00001" summary="Started Hibernate chapter from Spring Course">
       <created>1599685574208</created>
@@ -310,38 +303,38 @@
       <screen x="63" y="0" width="3377" height="1440" />
     </state>
     <state x="2332" y="475" key="FileChooserDialogImpl/63.0.3377.1440@63.0.3377.1440" timestamp="1599861823945" />
-    <state width="1709" height="235" key="GridCell.Tab.0.bottom" timestamp="1600164805573">
+    <state width="1709" height="235" key="GridCell.Tab.0.bottom" timestamp="1600241669200">
       <screen x="63" y="0" width="3377" height="1440" />
     </state>
-    <state width="1709" height="235" key="GridCell.Tab.0.bottom/63.0.3377.1440@63.0.3377.1440" timestamp="1600164805573" />
-    <state width="1709" height="235" key="GridCell.Tab.0.center" timestamp="1600164805573">
+    <state width="1709" height="235" key="GridCell.Tab.0.bottom/63.0.3377.1440@63.0.3377.1440" timestamp="1600241669200" />
+    <state width="1709" height="235" key="GridCell.Tab.0.center" timestamp="1600241669200">
       <screen x="63" y="0" width="3377" height="1440" />
     </state>
-    <state width="1709" height="235" key="GridCell.Tab.0.center/63.0.3377.1440@63.0.3377.1440" timestamp="1600164805573" />
-    <state width="1709" height="235" key="GridCell.Tab.0.left" timestamp="1600164805573">
+    <state width="1709" height="235" key="GridCell.Tab.0.center/63.0.3377.1440@63.0.3377.1440" timestamp="1600241669200" />
+    <state width="1709" height="235" key="GridCell.Tab.0.left" timestamp="1600241669199">
       <screen x="63" y="0" width="3377" height="1440" />
     </state>
-    <state width="1709" height="235" key="GridCell.Tab.0.left/63.0.3377.1440@63.0.3377.1440" timestamp="1600164805573" />
-    <state width="1709" height="235" key="GridCell.Tab.0.right" timestamp="1600164805573">
+    <state width="1709" height="235" key="GridCell.Tab.0.left/63.0.3377.1440@63.0.3377.1440" timestamp="1600241669199" />
+    <state width="1709" height="235" key="GridCell.Tab.0.right" timestamp="1600241669200">
       <screen x="63" y="0" width="3377" height="1440" />
     </state>
-    <state width="1709" height="235" key="GridCell.Tab.0.right/63.0.3377.1440@63.0.3377.1440" timestamp="1600164805573" />
-    <state width="1709" height="495" key="GridCell.Tab.1.bottom" timestamp="1600117522471">
+    <state width="1709" height="235" key="GridCell.Tab.0.right/63.0.3377.1440@63.0.3377.1440" timestamp="1600241669200" />
+    <state width="1709" height="495" key="GridCell.Tab.1.bottom" timestamp="1600239465126">
       <screen x="63" y="0" width="3377" height="1440" />
     </state>
-    <state width="1709" height="495" key="GridCell.Tab.1.bottom/63.0.3377.1440@63.0.3377.1440" timestamp="1600117522471" />
-    <state width="1709" height="495" key="GridCell.Tab.1.center" timestamp="1600117522470">
+    <state width="1709" height="495" key="GridCell.Tab.1.bottom/63.0.3377.1440@63.0.3377.1440" timestamp="1600239465126" />
+    <state width="1709" height="495" key="GridCell.Tab.1.center" timestamp="1600239465126">
       <screen x="63" y="0" width="3377" height="1440" />
     </state>
-    <state width="1709" height="495" key="GridCell.Tab.1.center/63.0.3377.1440@63.0.3377.1440" timestamp="1600117522470" />
-    <state width="1709" height="495" key="GridCell.Tab.1.left" timestamp="1600117522470">
+    <state width="1709" height="495" key="GridCell.Tab.1.center/63.0.3377.1440@63.0.3377.1440" timestamp="1600239465126" />
+    <state width="1709" height="495" key="GridCell.Tab.1.left" timestamp="1600239465126">
       <screen x="63" y="0" width="3377" height="1440" />
     </state>
-    <state width="1709" height="495" key="GridCell.Tab.1.left/63.0.3377.1440@63.0.3377.1440" timestamp="1600117522470" />
-    <state width="1709" height="495" key="GridCell.Tab.1.right" timestamp="1600117522470">
+    <state width="1709" height="495" key="GridCell.Tab.1.left/63.0.3377.1440@63.0.3377.1440" timestamp="1600239465126" />
+    <state width="1709" height="495" key="GridCell.Tab.1.right" timestamp="1600239465126">
       <screen x="63" y="0" width="3377" height="1440" />
     </state>
-    <state width="1709" height="495" key="GridCell.Tab.1.right/63.0.3377.1440@63.0.3377.1440" timestamp="1600117522470" />
+    <state width="1709" height="495" key="GridCell.Tab.1.right/63.0.3377.1440@63.0.3377.1440" timestamp="1600239465126" />
     <state width="240" height="457" key="HiddenNamespacesPopup" timestamp="1600159315396">
       <screen x="63" y="0" width="3377" height="1440" />
     </state>

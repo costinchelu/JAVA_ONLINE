@@ -8,7 +8,7 @@ import ro.ccar.hibernatetutorial.section_27_manymany.entity.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CreateCourseAndStudentDemo {
+public class AddCoursesAndStudentsDemo {
 
     private static final String CONFIG_FILE = "hibernate.cfg.coursestudent.xml";
     private static final int COURSE_TO_GET_ID = 11;
@@ -26,8 +26,8 @@ public class CreateCourseAndStudentDemo {
 
         Course course1 = new Course("Course 1 - CS101");
         Course course2 = new Course("Course 2 - Physics Advanced");
-        Course course3 = new Course("Course 1 - Flute Intermediate");
-        Course course4 = new Course("Course 1 - Java Beginner");
+        Course course3 = new Course("Course 3 - Flute Intermediate");
+        Course course4 = new Course("Course 4 - Java Beginner");
 
         List<Course> courseList = new ArrayList<>();
         courseList.add(course1);
