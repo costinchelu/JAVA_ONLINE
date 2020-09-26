@@ -6,7 +6,10 @@ public class TernaryOperator {
         int b = 4;
         int c = 6;
 
+        // simple ternary
         int max = (a > b) ? a : b;
+
+        // complex ternary
         int min = (a < b) ? (a < c) ? a : c : (b < c) ? b : c;
 
         System.out.println("max = " + max);

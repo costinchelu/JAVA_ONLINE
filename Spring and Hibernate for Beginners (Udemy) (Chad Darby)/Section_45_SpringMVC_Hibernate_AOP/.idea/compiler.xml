@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Section_12_SpringMVC" />
+        <module name="Section_45_SpringMVC_Hibernate_AOP" />
+        <module name="SpringMVCExample" />
+        <module name="Section_28_SpringMVC_Hibernate" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
