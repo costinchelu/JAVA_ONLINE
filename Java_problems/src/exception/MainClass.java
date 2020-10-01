@@ -1,4 +1,4 @@
-package fooException;
+package exception;
 
 import java.sql.SQLException;
 
