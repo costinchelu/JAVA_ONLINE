@@ -1,0 +1,11 @@
+package MovieBridge.ImplementationBase;
+
+import MovieBridge.Model.Detail;
+
+import java.util.List;
+
+public interface Formatter {
+
+    String format(String header, List<Detail> details);
+
+}
