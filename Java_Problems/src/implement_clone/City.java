@@ -11,14 +11,26 @@ public class City implements Cloneable {
         this.cityName = cityName;
     }
 
+    // implementing a copy constructor
+    public City(City original) {
+        this.cityName = original.cityName;
+    }
+
 
     @Override
     protected Object clone() throws CloneNotSupportedException {
         return super.clone();
     }
 
-    // implementing a copy constructor
-    public City(City original) {
-        this.cityName = original.cityName;
+
+
+
+
+
+
+
+
+    public String getCityName() {
+        return cityName;
     }
 }

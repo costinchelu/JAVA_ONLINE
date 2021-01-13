@@ -1,4 +1,4 @@
-package lucrul_cu_fisiere;
+package working_w_files;
 
 import java.nio.file.FileSystems;
 import java.nio.file.Path;

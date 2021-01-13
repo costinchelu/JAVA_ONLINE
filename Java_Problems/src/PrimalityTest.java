@@ -1,9 +1,9 @@
-import static java.lang.System.exit;
+
 
 public class PrimalityTest {
 
     // Primality test
-    public static boolean isPrime(long n) {
+    public static boolean isItAPrimeNumber(long n) {
         if (n < 2) {
             return false;
         }

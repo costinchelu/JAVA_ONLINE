@@ -2,7 +2,12 @@ package reflection;
 
 import java.lang.reflect.Method;
 
-
+/**
+ * We can use Reflection to access private method of a class from
+ * outside the class. <br>In Java, we use getDeclaredMethod() to get
+ * instance of a private method. Then we mark this method accessible
+ * and finally invoke it.
+ */
 public class FooMethodCall {
 
     public static void main(String[] args) throws Exception {
@@ -21,10 +26,3 @@ public class FooMethodCall {
         m2.invoke(o, "Costin");
     }
 }
-
-/*
-We can use Reflection to access private method of a class from
-outside the class. In Java, we use getDeclaredMethod() to get
-instance of a private method. Then we mark this method accessible
-and finally invoke it.
-* */

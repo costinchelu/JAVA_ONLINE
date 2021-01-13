@@ -1,9 +1,7 @@
-package user_input;
-
 import java.io.*;
 import java.util.Scanner;
 
-public class Program {
+public class UserInput {
 
     public static void main(String[] args) {
 

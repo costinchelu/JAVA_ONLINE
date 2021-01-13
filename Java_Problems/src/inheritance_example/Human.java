@@ -1,4 +1,4 @@
-package human;
+package inheritance_example;
 
 class Human {
 

@@ -19,7 +19,6 @@ public class Person implements Cloneable {
     // no @Override, means we are not overriding clone
     // (II) it should throw CloneNotSupported
     public Person clone() throws CloneNotSupportedException {
-
         Person cloneObj = (Person) super.clone();   // (III) calls clone() from Object class
 
         // all other primitive fields are cloned by default
@@ -38,10 +37,33 @@ public class Person implements Cloneable {
 
     // but we can implement a copy constructor (and also implement copy constructors in aggregated classes):
     public Person(Person original) {
-
         this.name = original.name;
         this.income = original.income;
         this.city = new City(original.city);
         this.country = new Country(original.country);
+    }
+
+
+
+
+
+
+
+
+
+    public String getName() {
+        return name;
+    }
+
+    public int getIncome() {
+        return income;
+    }
+
+    public City getCity() {
+        return city;
+    }
+
+    public Country getCountry() {
+        return country;
     }
 }
