@@ -30,21 +30,8 @@ class Printer {
 
     private volatile boolean isOdd;   // boolean default value is false
 
-    synchronized void printEven(int number) {
-        while (!isOdd) {
-            try {
-                wait();
-            } catch (InterruptedException e) {
-                Thread.currentThread().interrupt();
-            }
-        }
-        System.out.println(Thread.currentThread().getName() + " : " + number);
-        isOdd = false;
-        notify();
-    }
-
     // this will run first (and then will not enter in while)
-    synchronized void printOdd(int number) {
+    public synchronized void printOdd(int number) {
         while (isOdd) {
             try {
                 wait();
@@ -55,6 +42,20 @@ class Printer {
         System.out.println(Thread.currentThread().getName() + " : " + number);
         isOdd = true;
 
+        notify();
+    }
+
+
+    public synchronized void printEven(int number) {
+        while (!isOdd) {
+            try {
+                wait();
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+            }
+        }
+        System.out.println(Thread.currentThread().getName() + " : " + number);
+        isOdd = false;
         notify();
     }
 }

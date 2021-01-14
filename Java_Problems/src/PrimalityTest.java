@@ -2,7 +2,6 @@
 
 public class PrimalityTest {
 
-    // Primality test
     public static boolean isItAPrimeNumber(long n) {
         if (n < 2) {
             return false;

@@ -1,5 +1,6 @@
 public class NthFibonacci {
 
+    // Fibonacci n-th number using recursive method
     public static long recursiveFibonacci(long n) {
         if (n <= 2) {
             return n;
