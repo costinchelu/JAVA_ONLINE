@@ -35,8 +35,8 @@ public class NthFibonacci {
 
 
     public static void main(String[] args) {
-        for (long i = -1; i <= 20; i++) {
-            System.out.println(i + " = " + recursiveFibonacci(i));
+        for (long i = 0; i <= 20; i++) {
+            System.out.println(i + ")   " + recursiveFibonacci(i));
         }
     }
 }

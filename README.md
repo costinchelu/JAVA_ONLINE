@@ -1,4 +1,4 @@
-﻿### Java Programming Masterclass (Udemy - Tim Buchalka)  
+### Java Programming Masterclass (Udemy - Tim Buchalka)  
 ### SOLID Software Design Principles in Java (PluralSight - Dan Geabunea)  
 ### Design Patterns (Pluralsight - Bryan Hansen)
 ### Dive Into Design Patterns (Alexander Shvets)
@@ -9,4 +9,5 @@
 ### Java Problems
 ### Spring and Hibernate for Beginners (Udemy) (Chad Darby)
 ### MongoDB with Spring Boot (Udemy)
+### Concurrency, Multithreading and Parallel Computing in Java (Udemy)
 
