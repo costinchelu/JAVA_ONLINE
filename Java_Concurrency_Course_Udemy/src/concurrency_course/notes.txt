@@ -4,7 +4,8 @@ PROCESS = an instance of program execution (the OS assigns distinct registers, s
 every process have a PID (process identifier) and memory allocated
 
 THREAD = is a unit of execution within a given process (so a process may have several threads)
-each thread in a process shares the memory and resources and this is why programmers have to deal with concurrent programming and multithreading
+each thread in a process shares the memory and resources and
+this is why programmers have to deal with concurrent programming and multithreading
 
 The typical difference between PROCESSES and THREADS (of the same process) run in a shared memory space,
 while processes run in separate memory spaces.
@@ -46,7 +47,7 @@ DIFFERENCE BETWEEN SLEEP AND WAIT:
 on the object that wait() is called on
 
 
-DIFFERENCES BETWEEN A LOCK AND A SYNCHRONIZE BLOCK:
+DIFFERENCES BETWEEN A LOCK AND A SYNCHRONIZED BLOCK:
 - synchronized are unfair by default but in case of locks, we can make them fair
 - we can check if a given lock is held or not
 - we can get a list of threads that are waiting for the given lock

@@ -1,10 +1,8 @@
-package temp;
+package vanillaJdbc;
 
-
-public class Demo {
+public class Example7 {
 
     public static void main(String[] args) {
-
 
 
     }
