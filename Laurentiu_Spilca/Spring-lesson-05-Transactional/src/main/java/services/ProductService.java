@@ -5,6 +5,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import repositories.ProductRepository;
 
+import java.sql.SQLException;
+
 
 @Service
 public class ProductService {
@@ -18,10 +20,12 @@ public class ProductService {
      *
      * rolls back RuntimeException but not checked exception
      */
-    @Transactional
+    @Transactional (rollbackFor = {RuntimeException.class, SQLException.class})
     public void addOneProduct(String productName) {
         productRepository.addProduct(productName);
-        //if(true) throw  new RuntimeException(":(");
+        // case we have a RuntimeException or an SQLException, transaction will be rolled back
+        //if(true) throw  new SQLException();
+
         System.out.println(productName + " was added successfully!");
     }
 }

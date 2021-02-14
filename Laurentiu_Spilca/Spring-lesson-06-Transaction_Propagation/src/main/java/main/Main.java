@@ -11,8 +11,8 @@ public class Main {
 
         try (var c = new AnnotationConfigApplicationContext(ProjectConfig.class)) {
 
-            ProductService productService = c.getBean(ProductService.class);
-            productService.addOneProduct("Butter");
+            ProductService service = c.getBean(ProductService.class);
+            service.addTenProducts();
         }
     }
 }
