@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Section_57_Spring_REST">
+    <output-path>$PROJECT_DIR$/out/artifacts/Section_57_Spring_REST</output-path>
+    <root id="root">
+      <element id="module-output" name="Section_57_Spring_REST" />
+    </root>
+  </artifact>
+</component>
