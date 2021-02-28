@@ -1,10 +1,7 @@
 package com.chaddarby.springrest.controller;
 
 import com.chaddarby.springrest.entity.Student;
-import com.chaddarby.springrest.exceptions.StudentErrorResponse;
 import com.chaddarby.springrest.exceptions.StudentNotFoundException;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.PostConstruct;
@@ -40,28 +37,5 @@ public class StudentRestController {
         }
 
         return students.get(studentId);
-    }
-
-    // add exception handlers
-    @ExceptionHandler
-    public ResponseEntity<StudentErrorResponse> handleException(StudentNotFoundException e) {
-        // create a StudentErrorResponse and return ResponseEntity
-        StudentErrorResponse errorResponse = new StudentErrorResponse();
-        errorResponse.setStatus(HttpStatus.NOT_FOUND.value());
-        errorResponse.setMessage(e.getMessage());
-        errorResponse.setTimestamp(System.currentTimeMillis());
-
-        return new ResponseEntity<>(errorResponse, HttpStatus.NOT_FOUND);
-    }
-
-//     for a catch all
-    @ExceptionHandler
-    public ResponseEntity<StudentErrorResponse> handleAllExc(Exception exc) {
-        StudentErrorResponse errorResponse = new StudentErrorResponse();
-        errorResponse.setStatus(HttpStatus.BAD_REQUEST.value());
-        errorResponse.setMessage(exc.getMessage());
-        errorResponse.setTimestamp(System.currentTimeMillis());
-
-        return new ResponseEntity<>(errorResponse, HttpStatus.BAD_REQUEST);
     }
 }
