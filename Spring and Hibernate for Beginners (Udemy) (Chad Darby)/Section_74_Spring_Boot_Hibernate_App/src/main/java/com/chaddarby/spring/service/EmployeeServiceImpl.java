@@ -3,7 +3,9 @@ package com.chaddarby.spring.service;
 import com.chaddarby.spring.dao.EmployeeDAO;
 import com.chaddarby.spring.entity.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -15,28 +17,34 @@ public class EmployeeServiceImpl implements EmployeeService {
 
 
     // constructor injection
+    // we are using @Qualifier to select a bean of type EmployeeDAO (we have more than one and
+    // Spring needs to know which one to use at runtime)
     @Autowired
-    public EmployeeServiceImpl(EmployeeDAO employeeDAO) {
+    public EmployeeServiceImpl(@Qualifier("employeeDAOJpaImpl") EmployeeDAO employeeDAO) {
         this.employeeDAO = employeeDAO;
     }
 
     @Override
+    @Transactional
     public List<Employee> findAll() {
-        return null;
+        return employeeDAO.findAll();
     }
 
     @Override
+    @Transactional
     public Employee findById(int employeeId) {
-        return null;
+        return employeeDAO.findById(employeeId);
     }
 
     @Override
+    @Transactional
     public void save(Employee employee) {
-
+        employeeDAO.save(employee);
     }
 
     @Override
+    @Transactional
     public void deleteById(int employeeId) {
-
+        employeeDAO.deleteById(employeeId);
     }
 }

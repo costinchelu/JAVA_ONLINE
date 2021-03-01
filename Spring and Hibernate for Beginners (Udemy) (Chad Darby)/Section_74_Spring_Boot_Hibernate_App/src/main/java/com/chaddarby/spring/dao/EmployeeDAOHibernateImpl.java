@@ -29,8 +29,7 @@ public class EmployeeDAOHibernateImpl implements EmployeeDAO {
         // get hibernate session > query > return Result List
         Session currentSession = entityManager.unwrap(Session.class);
         Query<Employee> query = currentSession.createQuery("select e from Employee e", Employee.class);
-        List<Employee> employees = query.getResultList();
-        return employees;
+        return query.getResultList();
     }
 
     @Override
