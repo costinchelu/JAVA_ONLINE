@@ -13,7 +13,7 @@ enum Size {
    SMALL,
    MEDIUM,
    LARGE,
-   YUGE
+   HUGE
 }
 
 class Product {
@@ -45,20 +45,27 @@ class ProductFilter {
       return products.stream().filter(p -> p.size == size && p.color == color);
    }
    // state space explosion
-   // 3 criteria = 7 methods
+   // that is for 2 criteria
+   // for 3 criteria we may need 7 methods
+   // at no point in time we would want to jump in this method and add or modify stuff...
+   // that would mean it is open for modification.
+   // Better to construct those classes and let them open for extension
 }
 
+// SPECIFICATION PATTERN
 // we introduce two new interfaces that are open for extension
+// by using generics we could filter anything
 interface Specification<T> {
 
    boolean isSatisfied(T item);
 }
 
-interface Filter<T> {
-
-   Stream<T> filter(List<T> items, Specification<T> spec);
-}
-
+/**
+ * we can now construct concrete specifications for every attribute we would
+ * like to filter <br>
+ * isSatisfied method will return true if the Product has the attribute that we
+ * are looking for
+ */
 class ColorSpecification implements Specification<Product> {
 
    private Color color;
@@ -73,6 +80,7 @@ class ColorSpecification implements Specification<Product> {
    }
 }
 
+// also size specification
 class SizeSpecification implements Specification<Product> {
 
    private Size size;
@@ -87,6 +95,7 @@ class SizeSpecification implements Specification<Product> {
    }
 }
 
+// we can also construct a specification that filters more than one attribute
 class AndSpecification<T> implements Specification<T> {
 
    private Specification<T> first, second;
@@ -103,11 +112,19 @@ class AndSpecification<T> implements Specification<T> {
 
 }
 
+// abstract filter that will return a stream of objects that have the stated
+// specification
+interface Filter<T> {
+
+   Stream<T> filter(List<T> items, Specification<T> spec);
+}
+
+// concrete filter
 class BetterFilter implements Filter<Product> {
 
    @Override
    public Stream<Product> filter(List<Product> items, Specification<Product> spec) {
-      return items.stream().filter(p -> spec.isSatisfied(p));
+      return items.stream().filter(spec::isSatisfied);
    }
 }
 
@@ -122,13 +139,14 @@ class OCPDemo {
 
       ProductFilter pf = new ProductFilter();
       System.out.println("Green products (old):");
+      // filter and print
       pf.filterByColor(products, Color.GREEN).forEach(p -> System.out.println(" - " + p.name + " is green"));
 
       // ^^ BEFORE
 
       // vv AFTER
       BetterFilter bf = new BetterFilter();
-      System.out.println("Green products (new):");
+      System.out.println("Green products (new and improved filtering):");
       bf.filter(products, new ColorSpecification(Color.GREEN))
             .forEach(p -> System.out.println(" - " + p.name + " is green"));
 
