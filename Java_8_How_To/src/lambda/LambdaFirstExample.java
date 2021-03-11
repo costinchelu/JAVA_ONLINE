@@ -1,4 +1,4 @@
-package com.dp.java8.lambda;
+package lambda;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -6,7 +6,7 @@ import java.util.Comparator;
 import java.util.List;
 
 
-public class FirstExample {
+public class LambdaFirstExample {
 
    public static void main(String[] args) {
 
@@ -32,8 +32,9 @@ public class FirstExample {
       // shorter:
       Collections.sort(names, (a, b) -> b.compareTo(a));
 
+
+
       // Collections.sort(names, Comparator.reverseOrder());
 
    }
-
 }

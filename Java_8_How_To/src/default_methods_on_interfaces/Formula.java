@@ -1,4 +1,4 @@
-package com.dp.java8.default_methods_on_interfaces;
+package default_methods_on_interfaces;
 
 // Java 8 enables us to add non-abstract method implementations to interfaces by utilizing the
 // default keyword. This feature is also known as Extension Methods.
@@ -24,5 +24,7 @@ class Demo {
       };
 
       System.out.println(formula.calculate(100));
+
+      // Default methods cannot be accessed from within lambda expressions.
    }
 }

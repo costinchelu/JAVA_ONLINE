@@ -1,4 +1,6 @@
-package com.dp.java8.method_and_constructor_references;
+package method_and_constructor_references;
+
+import suppliers_and_consumers.Person;
 
 public class SecondExample {
 
@@ -10,22 +12,6 @@ public class SecondExample {
       // We create a reference to the Person constructor via Person::new.
       // The Java compiler automatically chooses the right constructor
       // by matching the signature of PersonFactory.create
-   }
-}
-
-// simple bean
-class Person {
-
-   String firstName;
-
-   String lastName;
-
-   Person() {
-   }
-
-   Person(String firstName, String lastName) {
-      this.firstName = firstName;
-      this.lastName = lastName;
    }
 }
 

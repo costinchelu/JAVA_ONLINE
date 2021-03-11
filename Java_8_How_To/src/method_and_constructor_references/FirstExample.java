@@ -1,12 +1,16 @@
-package com.dp.java8.method_and_constructor_references;
+package method_and_constructor_references;
 
 public class FirstExample {
 
    public static void main(String[] args) {
 
-      Something something = new Something();
-      Converter<String, String> converter = something::startsWith;
+      // implementation (no need to concrete implementation in a separate class)
+      Converter<String, String> converter = new Something()::startsWith;
+
+      // call
       String converted = converter.convert("Java");
+
+
       System.out.println(converted);
    }
 }
