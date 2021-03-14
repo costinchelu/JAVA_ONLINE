@@ -1,4 +1,4 @@
-package com.dp.solid.c_liskov_substitution;
+package III_liskov_substitution;
 
 class Rectangle {
 
@@ -42,6 +42,8 @@ class Rectangle {
    }
 }
 
+
+
 class Square extends Rectangle {
 
    public Square() {
@@ -64,6 +66,8 @@ class Square extends Rectangle {
    }
 }
 
+
+// using a factory, we can make sure we will not create a wrong square
 class RectangleFactory {
 
    public static Rectangle newSquare(int side) {
@@ -74,6 +78,8 @@ class RectangleFactory {
       return new Rectangle(width, height);
    }
 }
+
+
 
 class LSPDemo {
 
@@ -88,6 +94,7 @@ class LSPDemo {
       Rectangle rc = new Rectangle(2, 3);
       useIt(rc);
 
+      // obviously, this square is not correct, still we were able to do it
       Rectangle sq = new Square();
       sq.setHeight(5);
       sq.setWidth(10);

@@ -1,4 +1,4 @@
-package com.dp.solid.b_open_closed;
+package II_open_closed;
 
 import java.util.List;
 import java.util.stream.Stream;

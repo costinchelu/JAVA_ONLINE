@@ -1,11 +1,9 @@
-package com.dp.solid.a_single_responsability;
+package I_single_responsability;
 
 import java.io.*;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
-
-import static java.lang.System.out;
 
 class Journal {
 
