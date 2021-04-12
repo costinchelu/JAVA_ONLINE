@@ -1,0 +1,33 @@
+
+´
+java:S1598"žThis file "Demo.java" should be located in "how_to\implement_clone" directory, not in "C:\WORK\INTELLIJ\JAVA_STUDY\Java_How_To\src\main\java\implement_clone".(›³‚*
+T
+java:S1854"9Remove this useless assignment to local variable "city4".( ‹ºÀøÿÿÿÿ
+O
+java:S1854"9Remove this useless assignment to local variable "city3".(ö²Ö´
+O
+java:S1854
+"9Remove this useless assignment to local variable "city2".(Ê™×ß
+R
+java:S1854"<Remove this useless assignment to local variable "country2".(€°Ìù
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ï×¹£øÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ªüÓªøÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ö‚ñ¢ýÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ùœ‡ôüÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(™¦„Ìøÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ýç±Õ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ô°Åïùÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¤“§©
+M	java:S106"9Replace this use of System.out or System.err by a logger.(ôé„
+N	java:S106"9Replace this use of System.out or System.err by a logger.(îèçá
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(åŸ¥µúÿÿÿÿ
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(‡æäžøÿÿÿÿ
+C
+java:S1481"-Remove this unused "country2" local variable.(€°Ìù
+@
+java:S1481
+"*Remove this unused "city2" local variable.(Ê™×ß
+@
+java:S1481"*Remove this unused "city3" local variable.(ö²Ö´
+E
+java:S1481"*Remove this unused "city4" local variable.( ‹ºÀøÿÿÿÿ

@@ -1,0 +1,9 @@
+
+ª
+java:S1598"“This file "ParallelSum.java" should be located in "problems\coderbyte" directory, not in "C:\WORK\INTELLIJ\JAVA_STUDY\Java_Problems\src\coderbyte".(°¾„Ä
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å¸†ùÿÿÿÿ
+m
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(å¸†ùÿÿÿÿ
+S	java:S106U"9Replace this use of System.out or System.err by a logger.(§ñÈÉşÿÿÿÿ
+N	java:S106W"9Replace this use of System.out or System.err by a logger.(ó§Â‡
+N	java:S106Y"9Replace this use of System.out or System.err by a logger.(”²ğû

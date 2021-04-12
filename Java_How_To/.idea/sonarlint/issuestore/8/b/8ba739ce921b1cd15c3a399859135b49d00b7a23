@@ -1,0 +1,8 @@
+
+Z
+java:S2147!"DCombine this catch with the one at line 31, which has the same body.(ο­£Δ
+h
+java:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(­ϋΨ‘ÿÿÿÿÿ
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(ζ¨¤ψÿÿÿÿ
+Ξ
+java:S1598"²This file "PropertiesFile.java" should be located in "how_to\working_w_properties" directory, not in "C:\WORK\INTELLIJ\JAVA_STUDY\Java_How_To\src\main\java\working_w_properties".(¤Φ²δωÿÿÿÿ

@@ -1,0 +1,14 @@
+
+·
+java:S1598" This file "MissingDigitFromEquation.java" should be located in "problems\coderbyte" directory, not in "C:\WORK\INTELLIJ\JAVA_STUDY\Java_Problems\src\coderbyte".(°¾„Ä
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢Ðí§
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(¢Ðí§
+<	java:S131""Add a default case to this switch.(Êý©Ðüÿÿÿÿ
+N	java:S106K"9Replace this use of System.out or System.err by a logger.(º„ù‚
+Q	java:S125F"<This block of commented-out lines of code should be removed.(Ïþ’÷
+S	java:S106L"9Replace this use of System.out or System.err by a logger.(”¤óÄûÿÿÿÿ
+S	java:S106M"9Replace this use of System.out or System.err by a logger.(Ç˜¶Ùýÿÿÿÿ
+S	java:S106N"9Replace this use of System.out or System.err by a logger.(Ž…ÆÊþÿÿÿÿ
+S	java:S106O"9Replace this use of System.out or System.err by a logger.(Ù«ì–úÿÿÿÿ
+S	java:S106P"9Replace this use of System.out or System.err by a logger.(ÄÑÜ®ûÿÿÿÿ

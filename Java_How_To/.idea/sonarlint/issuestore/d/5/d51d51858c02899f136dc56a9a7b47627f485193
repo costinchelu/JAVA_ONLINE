@@ -1,0 +1,50 @@
+
+0
+java:S1220""Move this file to a named package.
+C
+java:S1128"/Remove this unused import 'java.util.Iterator'.(¥ÍòÕ
+C
+java:S2885"/Make "SIMPLE_DATE_FORMAT" an instance variable.(Ÿ™Ú
+[
+java:S1854"BRemove this useless assignment to local variable "zonedDateTime1".(ã¬’Éüÿÿÿÿ
+U
+java:S1854"<Remove this useless assignment to local variable "instant2".(’ÏøÑşÿÿÿÿ
+W
+java:S1854">Remove this useless assignment to local variable "localDate2".(¶ÑÜÉüÿÿÿÿ
+W
+java:S1854">Remove this useless assignment to local variable "localTime1".(íÅû‹ûÿÿÿÿ
+V
+java:S1854"BRemove this useless assignment to local variable "localDateTime1".(¿„Éã
+P
+java:S1854"<Remove this useless assignment to local variable "instant1".(€Á±
+N
+java:S1854":Remove this useless assignment to local variable "clock1".(¼²ÑÀ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(É¤«¾üÿÿÿÿ
+L	java:S106"9Replace this use of System.out or System.err by a logger.(÷§£Ù
+T	java:S125"<This block of commented-out lines of code should be removed.(´Îèîùÿÿÿÿ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(É£ñøÿÿÿÿ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(î’‰Áÿÿÿÿÿ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(ˆ™çĞùÿÿÿÿ
+L	java:S106"9Replace this use of System.out or System.err by a logger.(ô–ˆ
+L	java:S106"9Replace this use of System.out or System.err by a logger.(ÿğ³ü
+K	java:S106"9Replace this use of System.out or System.err by a logger.(Õ·Ë`
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(ãõÿ®üÿÿÿÿ
+L	java:S106"9Replace this use of System.out or System.err by a logger.(Ó«°
+L	java:S106"9Replace this use of System.out or System.err by a logger.(©¹ãö
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(†İÀøÿÿÿÿ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(³¾Äşÿÿÿÿ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(¦ƒÿ­ùÿÿÿÿ
+?
+java:S1481"+Remove this unused "clock1" local variable.(¼²ÑÀ
+A
+java:S1481"-Remove this unused "instant1" local variable.(€Á±
+G
+java:S1481"3Remove this unused "localDateTime1" local variable.(¿„Éã
+H
+java:S1481"/Remove this unused "localTime1" local variable.(íÅû‹ûÿÿÿÿ
+H
+java:S1481"/Remove this unused "localDate2" local variable.(¶ÑÜÉüÿÿÿÿ
+F
+java:S1481"-Remove this unused "instant2" local variable.(’ÏøÑşÿÿÿÿ
+L
+java:S1481"3Remove this unused "zonedDateTime1" local variable.(ã¬’Éüÿÿÿÿ
