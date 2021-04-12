@@ -1,5 +1,3 @@
-package how_to;
-
 public class MaxValueInArray {
 
     // find maximum value in an array

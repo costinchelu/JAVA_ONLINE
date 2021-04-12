@@ -1,5 +1,3 @@
-package how_to;
-
 import java.text.SimpleDateFormat;
 import java.time.*;
 import java.time.format.DateTimeFormatter;

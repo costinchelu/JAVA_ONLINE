@@ -1,5 +1,3 @@
-package how_to;
-
 import java.text.DecimalFormat;
 import java.util.Calendar;
 import java.util.Locale;

@@ -1,5 +1,3 @@
-package how_to;
-
 public class RandomArray {
 
     // Create a random array with random values

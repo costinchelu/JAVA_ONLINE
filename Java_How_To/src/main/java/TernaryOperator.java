@@ -1,5 +1,3 @@
-package how_to;
-
 public class TernaryOperator {
 
     public static void main(String[] args) {

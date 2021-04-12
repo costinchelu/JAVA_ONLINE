@@ -1,5 +1,3 @@
-package how_to;
-
 import java.io.*;
 import java.util.Scanner;
 

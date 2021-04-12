@@ -26,7 +26,7 @@ public class PropertiesFile {
 
         Properties p = new Properties();
         try {
-            p.load(new FileInputStream("./src/how_to/working_w_properties/aPropertieFile.properties"));
+            p.load(new FileInputStream("./src/main/java/working_w_properties/aPropertieFile.properties"));
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
