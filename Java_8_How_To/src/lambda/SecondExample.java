@@ -11,6 +11,7 @@ public class SecondExample {
    public static void main(String[] args) {
       // implementation
       Converter<String, Integer> integerConverter = (f) -> Integer.valueOf(f);
+//      Converter<String, Integer> integerConverter = Integer::valueOf;
 
       // call
       Integer converted = integerConverter.convert("123");
@@ -32,7 +33,6 @@ public class SecondExample {
  */
 @FunctionalInterface
 interface Converter<F, T> {
-
    T convert(F from);
 }
 

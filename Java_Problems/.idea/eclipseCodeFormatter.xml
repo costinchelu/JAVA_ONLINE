@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EclipseCodeFormatterProjectSettings">
+    <option name="projectSpecificProfile">
+      <ProjectSpecificProfile>
+        <option name="formatter" value="ECLIPSE" />
+      </ProjectSpecificProfile>
+    </option>
+    <option name="selectedGlobalProfile">
+      <Settings>
+        <option name="formatter" value="ECLIPSE" />
+        <option name="id" value="1619193309265" />
+        <option name="name" value="new" />
+        <option name="pathToConfigFileJava" value="F:\GITHUB\WORK\Verifone Java Style Template\java-style-eclipse.xml" />
+        <option name="selectedJavaProfile" value="Java-style" />
+      </Settings>
+    </option>
+  </component>
+</project>

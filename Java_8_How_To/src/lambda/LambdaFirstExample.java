@@ -32,8 +32,6 @@ public class LambdaFirstExample {
       // shorter:
       Collections.sort(names, (a, b) -> b.compareTo(a));
 
-
-
       // Collections.sort(names, Comparator.reverseOrder());
 
    }

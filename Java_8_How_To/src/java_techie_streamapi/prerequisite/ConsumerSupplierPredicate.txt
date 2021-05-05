@@ -1,0 +1,27 @@
+are built in functional interfaces
+
+Consumer<T>
+-> needs one object as input
+| based on that performs some operations
+| returns void
+
+has method: ->    void accept(T t)
+also one default method: default Consumer<T> andThen(Consumer<? super T> after)
+
+
+Predicate<T>
+accepts an argument
+| based on that it tests for a condition
+| returns boolean
+
+has method: ->    boolean test(T t)
+
+
+Supplier<T>
+no input
+output is expected
+
+has a method:  ->     T get()
+
+
+
