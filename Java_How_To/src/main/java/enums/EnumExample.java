@@ -1,4 +1,4 @@
-package how_to.enums;
+package enums;
 
 interface DemoInterface {
 
