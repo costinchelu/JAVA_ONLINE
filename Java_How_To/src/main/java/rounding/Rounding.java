@@ -1,5 +1,7 @@
 package rounding;
 
+import org.apache.commons.lang3.StringUtils;
+
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
@@ -34,7 +36,10 @@ public class Rounding {
     }
 
     public static String round(String value, int scale) {
-        BigDecimal bd = new BigDecimal(String.valueOf(value));
+        if (StringUtils.isBlank(value)) {
+            return "0";
+        }
+        BigDecimal bd = new BigDecimal(value);
         return bd.setScale(scale, RoundingMode.FLOOR).stripTrailingZeros().toPlainString();
     }
 
