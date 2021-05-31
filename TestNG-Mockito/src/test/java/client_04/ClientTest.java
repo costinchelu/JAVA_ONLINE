@@ -17,12 +17,12 @@ public class ClientTest {
     public void setUp() {
         client = new Client();}
 
-
     public void shouldReturnTrueIfClientHasMobile() {
         client.addPhone(MOBILE_PHONE);
         client.addPhone(STATIONARY_PHONE);
 
         assertTrue(client.hasMobile());
+
     }
 
     public void shouldReturnFalseIfClientHasNoMobile() {
