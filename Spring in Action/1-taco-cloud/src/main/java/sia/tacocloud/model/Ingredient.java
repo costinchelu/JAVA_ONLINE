@@ -17,8 +17,7 @@ public class Ingredient {
       WRAP,
       PROTEIN,
       VEGGIES,
-      CHEES,
-      SAUCE;
+      CHEESE,
+      SAUCE
    }
-
 }
