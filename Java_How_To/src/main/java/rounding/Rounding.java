@@ -40,7 +40,7 @@ public class Rounding {
 
     public static String round(double value, int scale) {
         BigDecimal bd = new BigDecimal(String.valueOf(value));
-        return bd.setScale(scale, RoundingMode.FLOOR).stripTrailingZeros().toPlainString();
+        return bd.setScale(scale, RoundingMode.HALF_UP).stripTrailingZeros().toPlainString();
     }
 
     /**
@@ -60,7 +60,7 @@ public class Rounding {
             return "0";
         }
         BigDecimal bd = new BigDecimal(value);
-        return bd.setScale(scale, RoundingMode.FLOOR).stripTrailingZeros().toPlainString();
+        return bd.setScale(scale, RoundingMode.HALF_UP).stripTrailingZeros().toPlainString();
     }
 
     public static String roundHalfEven(String value, int scale) {
