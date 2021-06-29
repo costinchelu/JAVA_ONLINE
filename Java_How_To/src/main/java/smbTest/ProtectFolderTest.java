@@ -7,13 +7,12 @@ import jcifs.smb.SmbFileOutputStream;
 
 
 public class ProtectFolderTest {
-    private final String USER_NAME = "BeaST";
-    private final String PASSWORD = "";
-    private final String DOMAIN = "WORKGROUP";
-    private final String NETWORK_FOLDER = "smb://DESKTOP-JNIB67H/ibcsettlement/";
-final
+    private String USER_NAME = null;
+    private String PASSWORD = null;
+    private String DOMAIN = null;
+    private String NETWORK_FOLDER = null;
+
     public static void main(String args[]) {
-        boolean result = false;
         try {
             String fileContent = "Hi, This is the SmbFile.";
             result = new ProtectFolderTest().copyFiles(fileContent, "SmbFile1.txt");
@@ -30,9 +29,8 @@ final
         SmbFile sFile = null;
         SmbFileOutputStream sfos = null;
         try {
-            auth = new NtlmPasswordAuthentication(
-                    DOMAIN, USER_NAME, PASSWORD);
-            path = NETWORK_FOLDER + fileName;
+            auth = new NtlmPasswordAuthentication(DOMAIN, USER_NAME, PASSWORD);
+            path = "smb://127.0.0.1/" + NETWORK_FOLDER + fileName;
             sFile = new SmbFile(path, auth);
             sfos = new SmbFileOutputStream(sFile);
             sfos.write(fileContent.getBytes());
