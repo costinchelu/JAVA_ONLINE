@@ -1,6 +1,5 @@
 package smbTest;
 
-import java.util.Properties;
 
 import jcifs.smb.NtlmPasswordAuthentication;
 import jcifs.smb.SmbFile;
@@ -8,18 +7,20 @@ import jcifs.smb.SmbFileOutputStream;
 
 
 public class ProtectFolderTest {
-    private String USER_NAME = null;
-    private String PASSWORD = null;
-    private String DOMAIN = null;
-    private String NETWORK_FOLDER = null;
-
+    private final String USER_NAME = "BeaST";
+    private final String PASSWORD = "";
+    private final String DOMAIN = "WORKGROUP";
+    private final String NETWORK_FOLDER = "smb://DESKTOP-JNIB67H/ibcsettlement/";
+final
     public static void main(String args[]) {
+        boolean result = false;
         try {
             String fileContent = "Hi, This is the SmbFile.";
-            new ProtectFolderTest().copyFiles(fileContent, "SmbFile1.text");
+            result = new ProtectFolderTest().copyFiles(fileContent, "SmbFile1.txt");
         } catch (Exception e) {
             System.err.println("Exception caught. Cause: " + e.getMessage());
         }
+        System.out.println(result);
     }
 
     public boolean copyFiles(String fileContent, String fileName) {
@@ -29,10 +30,6 @@ public class ProtectFolderTest {
         SmbFile sFile = null;
         SmbFileOutputStream sfos = null;
         try {
-            USER_NAME = "your username";
-            PASSWORD = "your password";
-            DOMAIN = "your domain";
-            NETWORK_FOLDER = "smb://machineName/network_folder/";
             auth = new NtlmPasswordAuthentication(
                     DOMAIN, USER_NAME, PASSWORD);
             path = NETWORK_FOLDER + fileName;

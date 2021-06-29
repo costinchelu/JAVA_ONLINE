@@ -7,9 +7,14 @@ import javax.validation.constraints.Digits;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
+import java.util.Date;
 
 @Data
 public class Order {
+
+   private Long id;
+
+   private Date placedAt;
 
    @NotBlank(message = "Name is required")
    private String name;
